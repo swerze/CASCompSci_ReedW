@@ -1,0 +1,5 @@
+getFirstVowel returns a string
+
+The exclamation point method, because you don't need to provide an alternate message
+
+You would want to add whatever character is a vowel in another language to [Character]
