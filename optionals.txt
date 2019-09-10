@@ -1,4 +1,4 @@
-getFirstVowel returns a string
+getFirstVowel returns anl optional string
 
 The exclamation point method, because you don't need to provide an alternate message
 
