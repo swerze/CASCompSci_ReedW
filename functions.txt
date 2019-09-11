@@ -1,0 +1,6 @@
+Keyword is "func"
+
+After giving it a name and values you put a little -> and then the type of value you want to return (i.e: String, Int)
+
+An argument label can help with readability when calling a function. It's like an extra parameter name that clarifies what the function does (and calls the parameter name that it is assigned to). You can set the argument label to a preposition and the parameter name to 
+a noun, so when you call the parameter name it reads like "from: LA" or "with: Candlestick".
