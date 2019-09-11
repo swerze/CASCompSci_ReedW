@@ -13,15 +13,18 @@ func shout(this message: String) -> String {
     return message + "!"
 }
 func numberName(spell number: Int) -> String {
-    if number != 7 {
-        return "nil"
+    //let numbers: [Int] = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    let numberSpelled: [String] =
+        ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
+    if (-1 < number && number < 10) {
+        return numberSpelled[number]
     } else {
-        return "seven"
+        return "nil"
     }
 }
 
 print(square(number: five()))
 print(fullName(first: "Reed", last: "Wilson"))
 print(shout(this: "What up homie"))
-print(numberName(spell: 7))
 print(numberName(spell: 4))
+print(numberName(spell: 15))
