@@ -43,9 +43,22 @@ class ViewController: UIViewController {
         }
         
         if(currentMode == .not_set || lastButtonWasMode){
-            
+            return
         }
+        
+        if(currentMode == .addition){
+            savedNum += labelInt
+        }
+        
+        if(currentMode == .subtraction){
+            savedNum -= labelInt
+        }
+        currentMode = .not_set
+        labelString = "\(savedNum)"
+        updateText()
+        lastButtonWasMode = true
     }
+    
     
     @IBAction func didPressNumber(_ sender: UIButton) {
         let stringValue:String? = sender.titleLabel?.text
@@ -62,6 +75,14 @@ class ViewController: UIViewController {
             savedNum = labelInt
         }
         label.text = "\(labelInt)"
+    }
+    
+    func changeMode(newMode:modes){
+        if(savedNum == 0){
+            return
+        }
+        currentMode = newMode
+        lastButtonWasMode = true
     }
     
 }
