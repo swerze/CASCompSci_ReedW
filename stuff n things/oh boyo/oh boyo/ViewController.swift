@@ -45,4 +45,3 @@ class ViewController: UIViewController {
     
 }
 
-//Alberto really pulled through, and helped me with an optional error that was messing me up a lot
