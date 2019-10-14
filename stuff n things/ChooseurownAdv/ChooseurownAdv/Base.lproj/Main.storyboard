@@ -18,44 +18,57 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Te1-mp-BLC">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Te1-mp-BLC">
                                 <rect key="frame" x="20" y="79" width="374" height="282"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">You see a human shape dive into the trench with you, explosions at its heels. Upon landing (pretty much face first) the humanoid covers it’s head as if waiting for some kind of impact. The uniform is too tattered to tell if this is a man, woman or AI. Cautiously you ready your fire arm and aim it at the head of your new trench-mate.
 Tension is building and you know that if this is the enemy, you will only have seconds to react when it makes its move.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Do you:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6DB-xu-ojI">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do you:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6DB-xu-ojI">
                                 <rect key="frame" x="48" y="340" width="59" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q5R-Md-aaY">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q5R-Md-aaY">
                                 <rect key="frame" x="199" y="417" width="16" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lcd-2t-jac">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lcd-2t-jac">
                                 <rect key="frame" x="91" y="379" width="233" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="take the safe route and shoot now"/>
                                 <connections>
                                     <segue destination="kpe-Fv-MQy" kind="show" id="zTC-Ad-d7e"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WUO-ZP-rsi">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WUO-ZP-rsi">
                                 <rect key="frame" x="8" y="456" width="398" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="wait to see eyes and hope you can discern quickly enough"/>
+                                <connections>
+                                    <segue destination="qd0-pF-Wyf" kind="show" id="5HN-3i-Tc2"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="WUO-ZP-rsi" firstAttribute="top" secondItem="Q5R-Md-aaY" secondAttribute="bottom" constant="18" id="6PB-19-t7Z"/>
+                            <constraint firstItem="lcd-2t-jac" firstAttribute="centerX" secondItem="Q5R-Md-aaY" secondAttribute="centerX" id="90V-HW-v0G"/>
+                            <constraint firstItem="lcd-2t-jac" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="91" id="AbI-tI-DsF"/>
+                            <constraint firstItem="Te1-mp-BLC" firstAttribute="baseline" secondItem="6DB-xu-ojI" secondAttribute="baseline" id="NiK-99-N6e"/>
+                            <constraint firstItem="6DB-xu-ojI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="252" id="P3C-DP-rkD"/>
+                            <constraint firstItem="6DB-xu-ojI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="48" id="VD3-lS-xXK"/>
+                            <constraint firstItem="lcd-2t-jac" firstAttribute="top" secondItem="6DB-xu-ojI" secondAttribute="bottom" constant="18" id="hjC-EL-iF5"/>
+                            <constraint firstItem="Te1-mp-BLC" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="hou-L7-fQd"/>
+                            <constraint firstItem="Q5R-Md-aaY" firstAttribute="centerX" secondItem="WUO-ZP-rsi" secondAttribute="centerX" id="jRf-tc-Cme"/>
+                            <constraint firstItem="Te1-mp-BLC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="oSD-xW-vbi"/>
+                            <constraint firstItem="Q5R-Md-aaY" firstAttribute="top" secondItem="lcd-2t-jac" secondAttribute="bottom" constant="8" symbolic="YES" id="q6K-PZ-WrH"/>
+                            <constraint firstItem="Te1-mp-BLC" firstAttribute="centerX" secondItem="lcd-2t-jac" secondAttribute="centerX" id="q9e-ae-0OH"/>
+                            <constraint firstItem="Te1-mp-BLC" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-9" id="ueb-bz-Uhy"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="TXf-lo-Duo"/>
@@ -71,7 +84,34 @@ Tension is building and you know that if this is the enemy, you will only have s
                     <view key="view" contentMode="scaleToFill" id="39T-u0-ZuM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d0L-CX-qy2">
+                                <rect key="frame" x="20" y="91" width="374" height="282"/>
+                                <string key="text">The gods are simply not on your side. You wait with your gun trained on the body, but Kombat Karl, the major, senses your presence and assumes you're the enemy. In one swift movement he rolls over and shoots you once in the leg and hops out of the trench. Never to be seen, by you, again. You bleed out alone.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="You are dead, haha, you lose" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TfH-Qy-FLl">
+                                <rect key="frame" x="98" y="443" width="219" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="22d-bL-pQG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="d0L-CX-qy2" firstAttribute="leading" secondItem="39T-u0-ZuM" secondAttribute="leadingMargin" id="8S8-bh-tkX"/>
+                            <constraint firstItem="d0L-CX-qy2" firstAttribute="centerX" secondItem="TfH-Qy-FLl" secondAttribute="centerX" id="Act-BS-1X5"/>
+                            <constraint firstItem="d0L-CX-qy2" firstAttribute="top" secondItem="pPo-Nc-Rxv" secondAttribute="top" constant="3" id="D78-ss-Eyu"/>
+                            <constraint firstItem="d0L-CX-qy2" firstAttribute="trailing" secondItem="39T-u0-ZuM" secondAttribute="trailingMargin" id="Fwn-Lt-dor"/>
+                            <constraint firstItem="TfH-Qy-FLl" firstAttribute="leading" secondItem="pPo-Nc-Rxv" secondAttribute="leading" constant="98" id="I97-G1-Fkq"/>
+                            <constraint firstItem="TfH-Qy-FLl" firstAttribute="top" secondItem="d0L-CX-qy2" secondAttribute="bottom" constant="70" id="VTD-iI-yDc"/>
+                            <constraint firstItem="pPo-Nc-Rxv" firstAttribute="bottom" secondItem="TfH-Qy-FLl" secondAttribute="bottom" constant="379" id="lFb-NL-bbF"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="pPo-Nc-Rxv"/>
                     </view>
                 </viewController>
@@ -87,36 +127,40 @@ Tension is building and you know that if this is the enemy, you will only have s
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x4w-Rb-o1h">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x4w-Rb-o1h">
                                 <rect key="frame" x="20" y="110" width="374" height="226"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">You blast the fool, but after the short adrenaline rush you’ve come to know so well you get a sick feeling in your stomach. You replay the moment in your head and hear the sound of bullet hitting flesh, not bullet hitting synthetic human skin covering a lifeless yet sentient robot skeleton. You crawl over to the body, hearing the carnage goin on above ground all the way, and flip over the body. You are horrified, you accidentally shot the Major. You killed THE Kombat Karl.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You know you can’t return home having done this, do you:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QnV-49-YhL">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="You know you can’t return home having done this, do you:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QnV-49-YhL">
                                 <rect key="frame" x="75" y="344" width="264" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="UBW-g7-oJm"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rcp-eW-j8w">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rcp-eW-j8w">
                                 <rect key="frame" x="199" y="459" width="16" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aYT-eY-Nek">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aYT-eY-Nek">
                                 <rect key="frame" x="57" y="421" width="302" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="tg3-St-9I9"/>
+                                </constraints>
                                 <state key="normal" title="let your sorrow consume you and end it now"/>
+                                <connections>
+                                    <segue destination="ek2-og-PhN" kind="show" id="5pF-QE-pCk"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SuB-D8-NwQ">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SuB-D8-NwQ">
                                 <rect key="frame" x="25" y="459" width="366" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="let your anger lead you back to the battle"/>
                                 <connections>
                                     <segue destination="de3-jl-Kaf" kind="show" id="ubi-yY-KXC"/>
@@ -124,12 +168,70 @@ Tension is building and you know that if this is the enemy, you will only have s
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="QnV-49-YhL" firstAttribute="top" secondItem="x4w-Rb-o1h" secondAttribute="bottom" constant="8" symbolic="YES" id="1aB-uK-yJs"/>
+                            <constraint firstItem="aYT-eY-Nek" firstAttribute="leading" secondItem="jUL-Jg-sss" secondAttribute="leading" constant="57" id="7Dy-yK-si0"/>
+                            <constraint firstItem="x4w-Rb-o1h" firstAttribute="leading" secondItem="Aq5-cp-Zu0" secondAttribute="leadingMargin" id="GQq-DB-ajS"/>
+                            <constraint firstItem="SuB-D8-NwQ" firstAttribute="top" secondItem="rcp-eW-j8w" secondAttribute="top" id="Izi-ak-bae"/>
+                            <constraint firstItem="x4w-Rb-o1h" firstAttribute="top" secondItem="jUL-Jg-sss" secondAttribute="top" constant="22" id="UAs-lK-qZc"/>
+                            <constraint firstItem="rcp-eW-j8w" firstAttribute="top" secondItem="aYT-eY-Nek" secondAttribute="bottom" constant="8" symbolic="YES" id="YT1-xy-UaE"/>
+                            <constraint firstItem="x4w-Rb-o1h" firstAttribute="centerX" secondItem="QnV-49-YhL" secondAttribute="centerX" id="Ype-It-T0X"/>
+                            <constraint firstItem="aYT-eY-Nek" firstAttribute="centerX" secondItem="SuB-D8-NwQ" secondAttribute="centerX" id="dQg-T1-Gkv"/>
+                            <constraint firstItem="jUL-Jg-sss" firstAttribute="bottom" secondItem="rcp-eW-j8w" secondAttribute="bottom" constant="382" id="f5g-Ck-U1E"/>
+                            <constraint firstItem="jUL-Jg-sss" firstAttribute="bottom" secondItem="SuB-D8-NwQ" secondAttribute="bottom" constant="335" id="gPG-Qm-DXT"/>
+                            <constraint firstItem="QnV-49-YhL" firstAttribute="leading" secondItem="jUL-Jg-sss" secondAttribute="leading" constant="75" id="jte-kT-RBq"/>
+                            <constraint firstItem="QnV-49-YhL" firstAttribute="centerX" secondItem="rcp-eW-j8w" secondAttribute="centerX" id="nzn-hJ-x91"/>
+                            <constraint firstItem="aYT-eY-Nek" firstAttribute="top" secondItem="QnV-49-YhL" secondAttribute="bottom" constant="31" id="tof-NI-Dpd"/>
+                            <constraint firstItem="SuB-D8-NwQ" firstAttribute="leading" secondItem="jUL-Jg-sss" secondAttribute="leading" constant="25" id="vTE-dv-Xy9"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="jUL-Jg-sss"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6rz-SJ-rq8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1868.1159420289857" y="-224.33035714285714"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="JMn-93-9qO">
+            <objects>
+                <viewController id="80m-ch-j3f" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Uky-JI-cny">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3rP-it-QrZ">
+                                <rect key="frame" x="20" y="118" width="374" height="308"/>
+                                <string key="text">You continue your charge, knowing that you may very well not survive against this foreign vehicle looking thing. At a certain distance from the object, you see a red beam ruching towards you. When it gets to you, there is a brief second of complete silence, like you went deaf, and then a blining flash of light.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="You are dead, haha, you lose" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Crl-E8-gLB">
+                                <rect key="frame" x="98" y="452" width="219" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="c47-yl-jxa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3rP-it-QrZ" firstAttribute="centerX" secondItem="Crl-E8-gLB" secondAttribute="centerX" id="2L9-Yg-BgQ"/>
+                            <constraint firstItem="Crl-E8-gLB" firstAttribute="leading" secondItem="Q5o-sI-cdk" secondAttribute="leading" constant="98" id="5E6-9Z-llR"/>
+                            <constraint firstItem="3rP-it-QrZ" firstAttribute="leading" secondItem="Uky-JI-cny" secondAttribute="leadingMargin" id="C1l-4Q-POc"/>
+                            <constraint firstItem="Q5o-sI-cdk" firstAttribute="bottom" secondItem="Crl-E8-gLB" secondAttribute="bottom" constant="370" id="Nif-CO-Bi5"/>
+                            <constraint firstItem="3rP-it-QrZ" firstAttribute="trailing" secondItem="Uky-JI-cny" secondAttribute="trailingMargin" id="RDM-hg-ajK"/>
+                            <constraint firstItem="3rP-it-QrZ" firstAttribute="top" secondItem="Q5o-sI-cdk" secondAttribute="top" constant="30" id="fWz-wM-24W"/>
+                            <constraint firstItem="Crl-E8-gLB" firstAttribute="top" secondItem="3rP-it-QrZ" secondAttribute="bottom" constant="26" id="yaB-Kh-ajB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Q5o-sI-cdk"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hAc-yG-wLI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2782.608695652174" y="-1086.1607142857142"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="xZM-ke-lCo">
@@ -139,40 +241,66 @@ Tension is building and you know that if this is the enemy, you will only have s
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ju9-ck-IwV">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ju9-ck-IwV">
                                 <rect key="frame" x="15" y="83" width="385" height="252"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">You charge back into battle with your trusty firearm in one hand, and Kombat's apparently less trusty firearm in the other. It's hard, but you manage to ignore the humanoid bodies everywhere, knowing one of them can grab you at any moment. As you blast through AI after AI your hatred for humans and AIs alike fuels you. And after about 12, 13 kills you get a second of respite and notice a shiny city-looking thing glinting in the sun in the distance. It takes a couple seconds, but then you notice its moving... Towards you.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Do you:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IsF-7s-6O3">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do you:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IsF-7s-6O3">
                                 <rect key="frame" x="62" y="360" width="59" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="1ly-Ta-BFu"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UwJ-BF-8uk">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UwJ-BF-8uk">
                                 <rect key="frame" x="29" y="398" width="356" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="2Jp-d1-MxP"/>
+                                </constraints>
                                 <state key="normal" title="continue your rampage in the direction of the object"/>
+                                <connections>
+                                    <segue destination="80m-ch-j3f" kind="show" id="X8d-d0-fBm"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="or" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bTN-jo-bO2">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bTN-jo-bO2">
                                 <rect key="frame" x="199" y="436" width="16" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="taq-rC-ghd"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GZs-39-D0a">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GZs-39-D0a">
                                 <rect key="frame" x="92" y="475" width="230" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="icR-R5-xss"/>
+                                </constraints>
                                 <state key="normal" title="get intimidated and look for cover"/>
+                                <connections>
+                                    <segue destination="PPn-yh-a6v" kind="show" id="q0V-AI-par"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="IsF-7s-6O3" firstAttribute="leading" secondItem="JYm-gb-jXm" secondAttribute="leading" constant="62" id="2TT-q7-Wb9"/>
+                            <constraint firstItem="GZs-39-D0a" firstAttribute="top" secondItem="bTN-jo-bO2" secondAttribute="bottom" constant="18" id="H8K-hB-1tk"/>
+                            <constraint firstItem="UwJ-BF-8uk" firstAttribute="top" secondItem="IsF-7s-6O3" secondAttribute="bottom" constant="17" id="R10-Ma-ftr"/>
+                            <constraint firstItem="ju9-ck-IwV" firstAttribute="centerX" secondItem="UwJ-BF-8uk" secondAttribute="centerX" id="TOJ-DH-ezG"/>
+                            <constraint firstItem="JYm-gb-jXm" firstAttribute="bottom" secondItem="GZs-39-D0a" secondAttribute="bottom" constant="357" id="bKA-hS-V2n"/>
+                            <constraint firstItem="bTN-jo-bO2" firstAttribute="centerX" secondItem="GZs-39-D0a" secondAttribute="centerX" id="dMZ-Es-gzy"/>
+                            <constraint firstItem="UwJ-BF-8uk" firstAttribute="centerX" secondItem="bTN-jo-bO2" secondAttribute="centerX" id="fEJ-qz-yPg"/>
+                            <constraint firstItem="ju9-ck-IwV" firstAttribute="top" secondItem="Hgm-Mb-uAY" secondAttribute="topMargin" constant="-5" id="i0a-Cj-lvZ"/>
+                            <constraint firstItem="ju9-ck-IwV" firstAttribute="centerX" secondItem="Hgm-Mb-uAY" secondAttribute="centerX" id="ihJ-0A-VGb"/>
+                            <constraint firstItem="bTN-jo-bO2" firstAttribute="top" secondItem="UwJ-BF-8uk" secondAttribute="bottom" constant="8" symbolic="YES" id="mry-Xg-RXy"/>
+                            <constraint firstItem="IsF-7s-6O3" firstAttribute="top" secondItem="ju9-ck-IwV" secondAttribute="bottom" constant="25" id="uWe-2n-vJV"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="JYm-gb-jXm"/>
                     </view>
                 </viewController>
@@ -195,22 +323,157 @@ Tension is building and you know that if this is the enemy, you will only have s
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HIq-Ei-2ye">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HIq-Ei-2ye">
                                 <rect key="frame" x="20" y="84" width="374" height="308"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">You quickly scan the horizon for something to hide behind, but the entire landscape had been reduce to rubble. Excpet for one lone, girthy (thats probably why it survived) tree. You run over to it and start to try to find a way to climb it, but right before you reach for the first branch a rope drops down and you hear a deep, friendly voice. "Need a hand", you look up into the tree and after a sec you see a man dressed in full camo with human looking eyes. "I'm Jeff, Jeffy T Sniper. Seems like you might need a hand"</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do you:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ES-RI-M1o">
+                                <rect key="frame" x="67" y="400" width="59" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="h5h-nu-8P7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nd2-ep-2aQ">
+                                <rect key="frame" x="113" y="438" width="207" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="BNX-7v-FpB"/>
+                                </constraints>
+                                <state key="normal" title="trust this trustworth snipeman"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="or" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e2C-Ym-4vA">
+                                <rect key="frame" x="204" y="476" width="16" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="hbb-Es-Oy6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdj-cb-nng">
+                                <rect key="frame" x="128" y="515" width="168" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="qSf-KB-M2v"/>
+                                </constraints>
+                                <state key="normal" title="look elsewhere for cover"/>
+                                <connections>
+                                    <segue destination="g36-Ny-oPp" kind="show" id="lTX-hL-uSA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="nd2-ep-2aQ" firstAttribute="top" secondItem="3ES-RI-M1o" secondAttribute="bottom" constant="17" id="0Vh-HU-bcB"/>
+                            <constraint firstItem="3ES-RI-M1o" firstAttribute="leading" secondItem="Ovz-x9-x79" secondAttribute="leading" constant="67" id="5Fb-7m-U81"/>
+                            <constraint firstItem="e2C-Ym-4vA" firstAttribute="top" secondItem="nd2-ep-2aQ" secondAttribute="bottom" constant="8" symbolic="YES" id="5nA-ax-p3o"/>
+                            <constraint firstItem="HIq-Ei-2ye" firstAttribute="leading" secondItem="VjP-87-wNK" secondAttribute="leadingMargin" id="7yM-H1-u0D"/>
+                            <constraint firstItem="fdj-cb-nng" firstAttribute="leading" secondItem="Ovz-x9-x79" secondAttribute="leading" constant="128" id="88X-cV-V0r"/>
+                            <constraint firstItem="e2C-Ym-4vA" firstAttribute="leading" secondItem="Ovz-x9-x79" secondAttribute="leading" constant="204" id="C8Z-DE-51e"/>
+                            <constraint firstItem="HIq-Ei-2ye" firstAttribute="top" secondItem="VjP-87-wNK" secondAttribute="topMargin" constant="-4" id="IaD-Tr-jGm"/>
+                            <constraint firstItem="fdj-cb-nng" firstAttribute="top" secondItem="e2C-Ym-4vA" secondAttribute="bottom" constant="18" id="Mhk-TS-vJh"/>
+                            <constraint firstItem="Ovz-x9-x79" firstAttribute="bottom" secondItem="fdj-cb-nng" secondAttribute="bottom" constant="317" id="N91-30-xyA"/>
+                            <constraint firstItem="nd2-ep-2aQ" firstAttribute="leading" secondItem="Ovz-x9-x79" secondAttribute="leading" constant="113" id="Ry0-rg-6tS"/>
+                            <constraint firstItem="nd2-ep-2aQ" firstAttribute="centerX" secondItem="e2C-Ym-4vA" secondAttribute="centerX" id="dsb-Ly-o9d"/>
+                            <constraint firstItem="3ES-RI-M1o" firstAttribute="top" secondItem="HIq-Ei-2ye" secondAttribute="bottom" constant="8" symbolic="YES" id="ndp-Ol-X4c"/>
+                            <constraint firstItem="e2C-Ym-4vA" firstAttribute="centerX" secondItem="fdj-cb-nng" secondAttribute="centerX" id="qW2-2O-qjf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ovz-x9-x79"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qi4-rZ-nvo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3361" y="-425"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="w6N-6I-eFe">
+            <objects>
+                <viewController id="wvF-Ie-71a" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tzH-00-kPV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xDi-c5-bzX">
+                                <rect key="frame" x="20" y="216" width="374" height="308"/>
+                                <string key="text">Jeffy T Sniper and you camp in the tree, and when darkness falls return to camp. The lage city looking vehicle thingy is nowhere to be seen, but it doesn't matter, you have survived the day.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="congrats, this is the only one where you live" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gft-Sp-ynl">
+                                <rect key="frame" x="41" y="559" width="333" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="OKX-Np-qGM"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="Ovz-x9-x79"/>
+                        <constraints>
+                            <constraint firstItem="xDi-c5-bzX" firstAttribute="top" secondItem="tSv-P2-4au" secondAttribute="top" constant="172" id="Nz4-ff-d1v"/>
+                            <constraint firstItem="tSv-P2-4au" firstAttribute="bottom" secondItem="gft-Sp-ynl" secondAttribute="bottom" constant="263" id="Uho-tP-vBo"/>
+                            <constraint firstItem="xDi-c5-bzX" firstAttribute="trailing" secondItem="tzH-00-kPV" secondAttribute="trailingMargin" id="aCK-D4-ic3"/>
+                            <constraint firstItem="xDi-c5-bzX" firstAttribute="centerX" secondItem="gft-Sp-ynl" secondAttribute="centerX" id="emk-Cy-5jx"/>
+                            <constraint firstItem="gft-Sp-ynl" firstAttribute="top" secondItem="xDi-c5-bzX" secondAttribute="bottom" constant="35" id="qAY-8m-wc6"/>
+                            <constraint firstItem="xDi-c5-bzX" firstAttribute="leading" secondItem="tzH-00-kPV" secondAttribute="leadingMargin" id="qNa-RT-xWX"/>
+                            <constraint firstItem="gft-Sp-ynl" firstAttribute="leading" secondItem="tSv-P2-4au" secondAttribute="leading" constant="41" id="vL2-sb-Sso"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="tSv-P2-4au"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Qi4-rZ-nvo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PYT-D5-ciY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2550.7246376811595" y="-648.21428571428567"/>
+            <point key="canvasLocation" x="4065.217391304348" y="-814.28571428571422"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TQD-Br-2tH">
+            <objects>
+                <viewController id="g36-Ny-oPp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="veg-oj-1h4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y81-D4-wQf">
+                                <rect key="frame" x="20" y="123" width="374" height="308"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="308" id="ysP-Hk-8Gy"/>
+                                </constraints>
+                                <string key="text">Your fear gets the better of you and you continue your search for cover. Unfortunately, when you finally do find a trench, you roll your ankle on the way in and it is too painful to put any weight on. So, when a grenade flies into the trench with you, you know its over. In your last seconds, and the blinding light of the explosion, you see god and your parents smiling at you.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="You are dead, haha, you lose" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aWq-5s-Dzu">
+                                <rect key="frame" x="98" y="537" width="219" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="WUf-Ru-hue"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Y81-D4-wQf" firstAttribute="centerX" secondItem="aWq-5s-Dzu" secondAttribute="centerX" id="6Xc-sY-vQs"/>
+                            <constraint firstItem="Y81-D4-wQf" firstAttribute="top" secondItem="QJH-XE-WIa" secondAttribute="top" constant="35" id="AxC-77-OiY"/>
+                            <constraint firstItem="QJH-XE-WIa" firstAttribute="bottom" secondItem="aWq-5s-Dzu" secondAttribute="bottom" constant="285" id="EvG-VK-qgE"/>
+                            <constraint firstItem="Y81-D4-wQf" firstAttribute="trailing" secondItem="veg-oj-1h4" secondAttribute="trailingMargin" id="LTU-eS-gsT"/>
+                            <constraint firstItem="Y81-D4-wQf" firstAttribute="leading" secondItem="veg-oj-1h4" secondAttribute="leadingMargin" id="OpM-L9-Iv3"/>
+                            <constraint firstItem="aWq-5s-Dzu" firstAttribute="leading" secondItem="QJH-XE-WIa" secondAttribute="leading" constant="98" id="q4U-JS-ahY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="QJH-XE-WIa"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kxp-5B-Rrq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4105.7971014492759" y="-119.19642857142857"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6Yu-9e-Zax">
@@ -219,7 +482,21 @@ Tension is building and you know that if this is the enemy, you will only have s
                     <view key="view" contentMode="scaleToFill" id="0qB-0I-7gs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="You are dead, haha, you lose" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4WH-23-uz9">
+                                <rect key="frame" x="98" y="408" width="219" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ex5-pB-dxV" firstAttribute="bottom" secondItem="4WH-23-uz9" secondAttribute="bottom" constant="414" id="0Gh-lO-nSr"/>
+                            <constraint firstItem="4WH-23-uz9" firstAttribute="leading" secondItem="ex5-pB-dxV" secondAttribute="leading" constant="98" id="5aU-NV-UXW"/>
+                            <constraint firstItem="4WH-23-uz9" firstAttribute="top" secondItem="ex5-pB-dxV" secondAttribute="top" constant="320" id="yAX-7m-EXh"/>
+                            <constraint firstItem="4WH-23-uz9" firstAttribute="centerX" secondItem="0qB-0I-7gs" secondAttribute="centerX" id="zwY-Nl-Q3E"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="ex5-pB-dxV"/>
                     </view>
                 </viewController>
