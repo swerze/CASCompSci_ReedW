@@ -75,6 +75,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
+                                    <action selector="edited:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="iOO-ne-LyC"/>
                                     <action selector="typed:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Ro1-T0-xXG"/>
                                     <action selector="typinated:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="Nkm-nd-PYL"/>
                                 </connections>

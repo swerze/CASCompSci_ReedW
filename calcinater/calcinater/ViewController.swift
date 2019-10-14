@@ -67,28 +67,39 @@ class ViewController: UIViewController {
     
     @IBAction func didPressPlus(_ sender: UIButton) {
         changeMode(newMode: .addition)
+        labelString = ""
     }
     
     @IBAction func didPressMinus(_ sender: UIButton) {
         changeMode(newMode: .subtraction)
+        labelString = ""
     }
     
     @IBAction func didPressTimes(_ sender: UIButton) {
         changeMode(newMode: .multiplication)
+        labelString = ""
     }
     
     @IBAction func didPressClear(_ sender: UIButton) {
         labelString = "0"
         currentMode = .not_set
         savedNum = 0
-        updateText()
+        label.text = "0"
         lastButtonWasMode = false
     }
     
     @IBAction func didPressNumber(_ sender: UIButton) {
-        let stringValue:String? = sender.titleLabel?.text
+        guard let stringValue: String = sender.titleLabel?.text else {
+            label.text = "Error"
+            return
+        }
         
-        labelString = labelString.appending(stringValue!)
+        if lastButtonWasMode {
+            lastButtonWasMode = false
+            labelString = "0"
+        }
+        
+        labelString = labelString.appending(stringValue)
         updateText()
     }
     
@@ -109,11 +120,8 @@ class ViewController: UIViewController {
         currentMode = newMode
         lastButtonWasMode = true
         
-        labelString = "0"
-        currentMode = .not_set
-        savedNum = 0
-        lastButtonWasMode = false
     }
     
 }
 
+//Kaelen helpinated me withe calcinatin
