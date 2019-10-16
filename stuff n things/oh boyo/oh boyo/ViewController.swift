@@ -23,8 +23,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func typinated(_ sender: UITextField) {
-        if ageField.text != nil {
-            year = Int(ageField.text!) ?? 0
+        if let year = Float(ageField.text!)  {
+            print(year)
         } else {
         showAge.text = "gimme a better value"
     }
