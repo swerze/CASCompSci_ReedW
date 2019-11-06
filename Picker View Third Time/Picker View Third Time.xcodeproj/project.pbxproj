@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80AF52662360A88D0012D058 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AF52652360A88D0012D058 /* AppDelegate.swift */; };
+		80AF52682360A88D0012D058 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AF52672360A88D0012D058 /* ViewController.swift */; };
+		80AF526B2360A88D0012D058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80AF52692360A88D0012D058 /* Main.storyboard */; };
+		80AF526D2360A88F0012D058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80AF526C2360A88F0012D058 /* Assets.xcassets */; };
+		80AF52702360A88F0012D058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80AF526E2360A88F0012D058 /* LaunchScreen.storyboard */; };
+		80AF527B2360A8900012D058 /* Picker_View_Third_TimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AF527A2360A8900012D058 /* Picker_View_Third_TimeTests.swift */; };
+		80AF52862360A8900012D058 /* Picker_View_Third_TimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AF52852360A8900012D058 /* Picker_View_Third_TimeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80AF52772360A8900012D058 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80AF525A2360A88D0012D058 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80AF52612360A88D0012D058;
+			remoteInfo = "Picker View Third Time";
+		};
+		80AF52822360A8900012D058 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80AF525A2360A88D0012D058 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80AF52612360A88D0012D058;
+			remoteInfo = "Picker View Third Time";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80AF52622360A88D0012D058 /* Picker View Third Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Picker View Third Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80AF52652360A88D0012D058 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80AF52672360A88D0012D058 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80AF526A2360A88D0012D058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80AF526C2360A88F0012D058 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80AF526F2360A88F0012D058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80AF52712360A88F0012D058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80AF52762360A8900012D058 /* Picker View Third TimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Picker View Third TimeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80AF527A2360A8900012D058 /* Picker_View_Third_TimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker_View_Third_TimeTests.swift; sourceTree = "<group>"; };
+		80AF527C2360A8900012D058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80AF52812360A8900012D058 /* Picker View Third TimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Picker View Third TimeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80AF52852360A8900012D058 /* Picker_View_Third_TimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker_View_Third_TimeUITests.swift; sourceTree = "<group>"; };
+		80AF52872360A8900012D058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80AF525F2360A88D0012D058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AF52732360A8900012D058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AF527E2360A8900012D058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80AF52592360A88D0012D058 = {
+			isa = PBXGroup;
+			children = (
+				80AF52642360A88D0012D058 /* Picker View Third Time */,
+				80AF52792360A8900012D058 /* Picker View Third TimeTests */,
+				80AF52842360A8900012D058 /* Picker View Third TimeUITests */,
+				80AF52632360A88D0012D058 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80AF52632360A88D0012D058 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80AF52622360A88D0012D058 /* Picker View Third Time.app */,
+				80AF52762360A8900012D058 /* Picker View Third TimeTests.xctest */,
+				80AF52812360A8900012D058 /* Picker View Third TimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80AF52642360A88D0012D058 /* Picker View Third Time */ = {
+			isa = PBXGroup;
+			children = (
+				80AF52652360A88D0012D058 /* AppDelegate.swift */,
+				80AF52672360A88D0012D058 /* ViewController.swift */,
+				80AF52692360A88D0012D058 /* Main.storyboard */,
+				80AF526C2360A88F0012D058 /* Assets.xcassets */,
+				80AF526E2360A88F0012D058 /* LaunchScreen.storyboard */,
+				80AF52712360A88F0012D058 /* Info.plist */,
+			);
+			path = "Picker View Third Time";
+			sourceTree = "<group>";
+		};
+		80AF52792360A8900012D058 /* Picker View Third TimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				80AF527A2360A8900012D058 /* Picker_View_Third_TimeTests.swift */,
+				80AF527C2360A8900012D058 /* Info.plist */,
+			);
+			path = "Picker View Third TimeTests";
+			sourceTree = "<group>";
+		};
+		80AF52842360A8900012D058 /* Picker View Third TimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80AF52852360A8900012D058 /* Picker_View_Third_TimeUITests.swift */,
+				80AF52872360A8900012D058 /* Info.plist */,
+			);
+			path = "Picker View Third TimeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80AF52612360A88D0012D058 /* Picker View Third Time */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80AF528A2360A8900012D058 /* Build configuration list for PBXNativeTarget "Picker View Third Time" */;
+			buildPhases = (
+				80AF525E2360A88D0012D058 /* Sources */,
+				80AF525F2360A88D0012D058 /* Frameworks */,
+				80AF52602360A88D0012D058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Picker View Third Time";
+			productName = "Picker View Third Time";
+			productReference = 80AF52622360A88D0012D058 /* Picker View Third Time.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80AF52752360A8900012D058 /* Picker View Third TimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80AF528D2360A8900012D058 /* Build configuration list for PBXNativeTarget "Picker View Third TimeTests" */;
+			buildPhases = (
+				80AF52722360A8900012D058 /* Sources */,
+				80AF52732360A8900012D058 /* Frameworks */,
+				80AF52742360A8900012D058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80AF52782360A8900012D058 /* PBXTargetDependency */,
+			);
+			name = "Picker View Third TimeTests";
+			productName = "Picker View Third TimeTests";
+			productReference = 80AF52762360A8900012D058 /* Picker View Third TimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80AF52802360A8900012D058 /* Picker View Third TimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80AF52902360A8900012D058 /* Build configuration list for PBXNativeTarget "Picker View Third TimeUITests" */;
+			buildPhases = (
+				80AF527D2360A8900012D058 /* Sources */,
+				80AF527E2360A8900012D058 /* Frameworks */,
+				80AF527F2360A8900012D058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80AF52832360A8900012D058 /* PBXTargetDependency */,
+			);
+			name = "Picker View Third TimeUITests";
+			productName = "Picker View Third TimeUITests";
+			productReference = 80AF52812360A8900012D058 /* Picker View Third TimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80AF525A2360A88D0012D058 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Reed Wilson";
+				TargetAttributes = {
+					80AF52612360A88D0012D058 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					80AF52752360A8900012D058 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 80AF52612360A88D0012D058;
+					};
+					80AF52802360A8900012D058 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 80AF52612360A88D0012D058;
+					};
+				};
+			};
+			buildConfigurationList = 80AF525D2360A88D0012D058 /* Build configuration list for PBXProject "Picker View Third Time" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80AF52592360A88D0012D058;
+			productRefGroup = 80AF52632360A88D0012D058 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80AF52612360A88D0012D058 /* Picker View Third Time */,
+				80AF52752360A8900012D058 /* Picker View Third TimeTests */,
+				80AF52802360A8900012D058 /* Picker View Third TimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80AF52602360A88D0012D058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AF52702360A88F0012D058 /* LaunchScreen.storyboard in Resources */,
+				80AF526D2360A88F0012D058 /* Assets.xcassets in Resources */,
+				80AF526B2360A88D0012D058 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AF52742360A8900012D058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AF527F2360A8900012D058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80AF525E2360A88D0012D058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AF52682360A88D0012D058 /* ViewController.swift in Sources */,
+				80AF52662360A88D0012D058 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AF52722360A8900012D058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AF527B2360A8900012D058 /* Picker_View_Third_TimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80AF527D2360A8900012D058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AF52862360A8900012D058 /* Picker_View_Third_TimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80AF52782360A8900012D058 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80AF52612360A88D0012D058 /* Picker View Third Time */;
+			targetProxy = 80AF52772360A8900012D058 /* PBXContainerItemProxy */;
+		};
+		80AF52832360A8900012D058 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80AF52612360A88D0012D058 /* Picker View Third Time */;
+			targetProxy = 80AF52822360A8900012D058 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80AF52692360A88D0012D058 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80AF526A2360A88D0012D058 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80AF526E2360A88F0012D058 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80AF526F2360A88F0012D058 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80AF52882360A8900012D058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80AF52892360A8900012D058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80AF528B2360A8900012D058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Picker View Third Time/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.Picker-View-Third-Time";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80AF528C2360A8900012D058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Picker View Third Time/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.Picker-View-Third-Time";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80AF528E2360A8900012D058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Picker View Third TimeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.Picker-View-Third-TimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Picker View Third Time.app/Picker View Third Time";
+			};
+			name = Debug;
+		};
+		80AF528F2360A8900012D058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Picker View Third TimeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.Picker-View-Third-TimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Picker View Third Time.app/Picker View Third Time";
+			};
+			name = Release;
+		};
+		80AF52912360A8900012D058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Picker View Third TimeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.Picker-View-Third-TimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Picker View Third Time";
+			};
+			name = Debug;
+		};
+		80AF52922360A8900012D058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Picker View Third TimeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.Picker-View-Third-TimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Picker View Third Time";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80AF525D2360A88D0012D058 /* Build configuration list for PBXProject "Picker View Third Time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AF52882360A8900012D058 /* Debug */,
+				80AF52892360A8900012D058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80AF528A2360A8900012D058 /* Build configuration list for PBXNativeTarget "Picker View Third Time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AF528B2360A8900012D058 /* Debug */,
+				80AF528C2360A8900012D058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80AF528D2360A8900012D058 /* Build configuration list for PBXNativeTarget "Picker View Third TimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AF528E2360A8900012D058 /* Debug */,
+				80AF528F2360A8900012D058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80AF52902360A8900012D058 /* Build configuration list for PBXNativeTarget "Picker View Third TimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AF52912360A8900012D058 /* Debug */,
+				80AF52922360A8900012D058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80AF525A2360A88D0012D058 /* Project object */;
+}
