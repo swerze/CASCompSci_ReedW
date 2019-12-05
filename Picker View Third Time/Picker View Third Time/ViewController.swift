@@ -51,11 +51,11 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         let mySched = getSchedForDay(periods: parsePeriods(matrix: matrixA, dayType: pick.selectedRow(inComponent: 2), abc: dayABC))
     }
     
-    func getSchedForDay(periods: String){
+    func getSchedForDay(periods: [String]){
         
     }
     
-    func parsePeriods(matrix: [String], dayType: Int, abc: Int){
+    func parsePeriods(matrix: [String], dayType: Int, abc: Int) -> [String] {
         var output1 = matrix
         if abc == 0 {
         output1 = [output1.remove(at: abc + 3)]
