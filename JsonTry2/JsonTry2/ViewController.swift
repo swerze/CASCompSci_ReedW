@@ -88,7 +88,7 @@ class ViewController: UIViewController {
                 let info: String = wordEntry["Info"]!
                 let number: String = wordEntry["Number"]!
                 print(name, info, number)
-                textView.text = textView.text! + "\nName: \(name)\nNumber: (\(number))\n Info: \(info)\n"
+                textView.text = textView.text! + "\nName: \(name)\nNumber: \(number)\n Info: \(info)\n"
             }
         }
     }
@@ -102,7 +102,7 @@ class ViewController: UIViewController {
                 let info: String = wordEntry["Info"]!
                 let number: String = wordEntry["Number"]!
                 print(name, info, number)
-                textView.text = textView.text! + "\nName: \(name)\nNumber: (\(number))\n Info: \(info)\n"
+                textView.text = textView.text! + "\nName: \(name)\nNumber: \(number)\n Info: \(info)\n"
             }
         }
     }
