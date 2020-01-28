@@ -1,0 +1,14 @@
+This App if pretty much just a contacts app with a button that deletes all your contacts at once. I initially aimed to make a setlist randomizer that would allow the user to reorder songs they've inputed in various ways. I couldn't figure out how to do it with adding slides to a picker view so I just gave up. Lance helped me a bit with my code, and nothing should be broken.
+
+Initial Goals:
+- User should be able to add songs to a picker view
+- User should be able to input a name and tags to describe the song
+- these details should show up when the song is selected on the picker view
+- The user should be able to remove songs
+- The user should be able to sort songs by name
+- The user should be able to sort song according to a string of tags
+
+Goals for Project Turned in:
+- User can input contacts, details and save
+- User should be able to recall a list of all contacts added
+- User should be able to delete all contacts
