@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8045F0B023D9FFA4000CEEFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8045F0AF23D9FFA4000CEEFC /* AppDelegate.swift */; };
+		8045F0B223D9FFA4000CEEFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8045F0B123D9FFA4000CEEFC /* ViewController.swift */; };
+		8045F0B523D9FFA4000CEEFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8045F0B323D9FFA4000CEEFC /* Main.storyboard */; };
+		8045F0B723D9FFA7000CEEFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8045F0B623D9FFA7000CEEFC /* Assets.xcassets */; };
+		8045F0BA23D9FFA7000CEEFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8045F0B823D9FFA7000CEEFC /* LaunchScreen.storyboard */; };
+		8045F0C523D9FFA7000CEEFC /* Setlist_RandomizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8045F0C423D9FFA7000CEEFC /* Setlist_RandomizerTests.swift */; };
+		8045F0D023D9FFA7000CEEFC /* Setlist_RandomizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8045F0CF23D9FFA7000CEEFC /* Setlist_RandomizerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8045F0C123D9FFA7000CEEFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8045F0A423D9FFA4000CEEFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8045F0AB23D9FFA4000CEEFC;
+			remoteInfo = "Setlist Randomizer";
+		};
+		8045F0CC23D9FFA7000CEEFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8045F0A423D9FFA4000CEEFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8045F0AB23D9FFA4000CEEFC;
+			remoteInfo = "Setlist Randomizer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8045F0AC23D9FFA4000CEEFC /* Setlist Randomizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Setlist Randomizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8045F0AF23D9FFA4000CEEFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8045F0B123D9FFA4000CEEFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8045F0B423D9FFA4000CEEFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8045F0B623D9FFA7000CEEFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8045F0B923D9FFA7000CEEFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8045F0BB23D9FFA7000CEEFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8045F0C023D9FFA7000CEEFC /* Setlist RandomizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Setlist RandomizerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8045F0C423D9FFA7000CEEFC /* Setlist_RandomizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setlist_RandomizerTests.swift; sourceTree = "<group>"; };
+		8045F0C623D9FFA7000CEEFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8045F0CB23D9FFA7000CEEFC /* Setlist RandomizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Setlist RandomizerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8045F0CF23D9FFA7000CEEFC /* Setlist_RandomizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setlist_RandomizerUITests.swift; sourceTree = "<group>"; };
+		8045F0D123D9FFA7000CEEFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8045F0A923D9FFA4000CEEFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8045F0BD23D9FFA7000CEEFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8045F0C823D9FFA7000CEEFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8045F0A323D9FFA4000CEEFC = {
+			isa = PBXGroup;
+			children = (
+				8045F0AE23D9FFA4000CEEFC /* Setlist Randomizer */,
+				8045F0C323D9FFA7000CEEFC /* Setlist RandomizerTests */,
+				8045F0CE23D9FFA7000CEEFC /* Setlist RandomizerUITests */,
+				8045F0AD23D9FFA4000CEEFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8045F0AD23D9FFA4000CEEFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8045F0AC23D9FFA4000CEEFC /* Setlist Randomizer.app */,
+				8045F0C023D9FFA7000CEEFC /* Setlist RandomizerTests.xctest */,
+				8045F0CB23D9FFA7000CEEFC /* Setlist RandomizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8045F0AE23D9FFA4000CEEFC /* Setlist Randomizer */ = {
+			isa = PBXGroup;
+			children = (
+				8045F0AF23D9FFA4000CEEFC /* AppDelegate.swift */,
+				8045F0B123D9FFA4000CEEFC /* ViewController.swift */,
+				8045F0B323D9FFA4000CEEFC /* Main.storyboard */,
+				8045F0B623D9FFA7000CEEFC /* Assets.xcassets */,
+				8045F0B823D9FFA7000CEEFC /* LaunchScreen.storyboard */,
+				8045F0BB23D9FFA7000CEEFC /* Info.plist */,
+			);
+			path = "Setlist Randomizer";
+			sourceTree = "<group>";
+		};
+		8045F0C323D9FFA7000CEEFC /* Setlist RandomizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8045F0C423D9FFA7000CEEFC /* Setlist_RandomizerTests.swift */,
+				8045F0C623D9FFA7000CEEFC /* Info.plist */,
+			);
+			path = "Setlist RandomizerTests";
+			sourceTree = "<group>";
+		};
+		8045F0CE23D9FFA7000CEEFC /* Setlist RandomizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8045F0CF23D9FFA7000CEEFC /* Setlist_RandomizerUITests.swift */,
+				8045F0D123D9FFA7000CEEFC /* Info.plist */,
+			);
+			path = "Setlist RandomizerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8045F0AB23D9FFA4000CEEFC /* Setlist Randomizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8045F0D423D9FFA7000CEEFC /* Build configuration list for PBXNativeTarget "Setlist Randomizer" */;
+			buildPhases = (
+				8045F0A823D9FFA4000CEEFC /* Sources */,
+				8045F0A923D9FFA4000CEEFC /* Frameworks */,
+				8045F0AA23D9FFA4000CEEFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Setlist Randomizer";
+			productName = "Setlist Randomizer";
+			productReference = 8045F0AC23D9FFA4000CEEFC /* Setlist Randomizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8045F0BF23D9FFA7000CEEFC /* Setlist RandomizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8045F0D723D9FFA7000CEEFC /* Build configuration list for PBXNativeTarget "Setlist RandomizerTests" */;
+			buildPhases = (
+				8045F0BC23D9FFA7000CEEFC /* Sources */,
+				8045F0BD23D9FFA7000CEEFC /* Frameworks */,
+				8045F0BE23D9FFA7000CEEFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8045F0C223D9FFA7000CEEFC /* PBXTargetDependency */,
+			);
+			name = "Setlist RandomizerTests";
+			productName = "Setlist RandomizerTests";
+			productReference = 8045F0C023D9FFA7000CEEFC /* Setlist RandomizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8045F0CA23D9FFA7000CEEFC /* Setlist RandomizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8045F0DA23D9FFA7000CEEFC /* Build configuration list for PBXNativeTarget "Setlist RandomizerUITests" */;
+			buildPhases = (
+				8045F0C723D9FFA7000CEEFC /* Sources */,
+				8045F0C823D9FFA7000CEEFC /* Frameworks */,
+				8045F0C923D9FFA7000CEEFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8045F0CD23D9FFA7000CEEFC /* PBXTargetDependency */,
+			);
+			name = "Setlist RandomizerUITests";
+			productName = "Setlist RandomizerUITests";
+			productReference = 8045F0CB23D9FFA7000CEEFC /* Setlist RandomizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8045F0A423D9FFA4000CEEFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Reed Wilson";
+				TargetAttributes = {
+					8045F0AB23D9FFA4000CEEFC = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					8045F0BF23D9FFA7000CEEFC = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 8045F0AB23D9FFA4000CEEFC;
+					};
+					8045F0CA23D9FFA7000CEEFC = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 8045F0AB23D9FFA4000CEEFC;
+					};
+				};
+			};
+			buildConfigurationList = 8045F0A723D9FFA4000CEEFC /* Build configuration list for PBXProject "Setlist Randomizer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8045F0A323D9FFA4000CEEFC;
+			productRefGroup = 8045F0AD23D9FFA4000CEEFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8045F0AB23D9FFA4000CEEFC /* Setlist Randomizer */,
+				8045F0BF23D9FFA7000CEEFC /* Setlist RandomizerTests */,
+				8045F0CA23D9FFA7000CEEFC /* Setlist RandomizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8045F0AA23D9FFA4000CEEFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8045F0BA23D9FFA7000CEEFC /* LaunchScreen.storyboard in Resources */,
+				8045F0B723D9FFA7000CEEFC /* Assets.xcassets in Resources */,
+				8045F0B523D9FFA4000CEEFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8045F0BE23D9FFA7000CEEFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8045F0C923D9FFA7000CEEFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8045F0A823D9FFA4000CEEFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8045F0B223D9FFA4000CEEFC /* ViewController.swift in Sources */,
+				8045F0B023D9FFA4000CEEFC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8045F0BC23D9FFA7000CEEFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8045F0C523D9FFA7000CEEFC /* Setlist_RandomizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8045F0C723D9FFA7000CEEFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8045F0D023D9FFA7000CEEFC /* Setlist_RandomizerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8045F0C223D9FFA7000CEEFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8045F0AB23D9FFA4000CEEFC /* Setlist Randomizer */;
+			targetProxy = 8045F0C123D9FFA7000CEEFC /* PBXContainerItemProxy */;
+		};
+		8045F0CD23D9FFA7000CEEFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8045F0AB23D9FFA4000CEEFC /* Setlist Randomizer */;
+			targetProxy = 8045F0CC23D9FFA7000CEEFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8045F0B323D9FFA4000CEEFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8045F0B423D9FFA4000CEEFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8045F0B823D9FFA7000CEEFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8045F0B923D9FFA7000CEEFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8045F0D223D9FFA7000CEEFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8045F0D323D9FFA7000CEEFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8045F0D523D9FFA7000CEEFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58L7ZLHMXX;
+				INFOPLIST_FILE = "Setlist Randomizer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.Setlist-Randomizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8045F0D623D9FFA7000CEEFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58L7ZLHMXX;
+				INFOPLIST_FILE = "Setlist Randomizer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.Setlist-Randomizer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8045F0D823D9FFA7000CEEFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58L7ZLHMXX;
+				INFOPLIST_FILE = "Setlist RandomizerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.Setlist-RandomizerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Setlist Randomizer.app/Setlist Randomizer";
+			};
+			name = Debug;
+		};
+		8045F0D923D9FFA7000CEEFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58L7ZLHMXX;
+				INFOPLIST_FILE = "Setlist RandomizerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.Setlist-RandomizerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Setlist Randomizer.app/Setlist Randomizer";
+			};
+			name = Release;
+		};
+		8045F0DB23D9FFA7000CEEFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58L7ZLHMXX;
+				INFOPLIST_FILE = "Setlist RandomizerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.Setlist-RandomizerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Setlist Randomizer";
+			};
+			name = Debug;
+		};
+		8045F0DC23D9FFA7000CEEFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58L7ZLHMXX;
+				INFOPLIST_FILE = "Setlist RandomizerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.Setlist-RandomizerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Setlist Randomizer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8045F0A723D9FFA4000CEEFC /* Build configuration list for PBXProject "Setlist Randomizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8045F0D223D9FFA7000CEEFC /* Debug */,
+				8045F0D323D9FFA7000CEEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8045F0D423D9FFA7000CEEFC /* Build configuration list for PBXNativeTarget "Setlist Randomizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8045F0D523D9FFA7000CEEFC /* Debug */,
+				8045F0D623D9FFA7000CEEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8045F0D723D9FFA7000CEEFC /* Build configuration list for PBXNativeTarget "Setlist RandomizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8045F0D823D9FFA7000CEEFC /* Debug */,
+				8045F0D923D9FFA7000CEEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8045F0DA23D9FFA7000CEEFC /* Build configuration list for PBXNativeTarget "Setlist RandomizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8045F0DB23D9FFA7000CEEFC /* Debug */,
+				8045F0DC23D9FFA7000CEEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8045F0A423D9FFA4000CEEFC /* Project object */;
+}

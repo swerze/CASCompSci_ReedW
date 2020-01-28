@@ -42,11 +42,11 @@ class ViewController: UIViewController {
         qLabel.text = "What artist released \(name!) in \(date!)?"
     }
     
-    @IBAction func answerfinished(_ sender: Any) {
+    @IBAction func enter(_ sender: Any) {
         if case let txtField.text = "\(answer)" {
             qLabel.text = "Correct!"
         } else {
-            qLabel.text = "Wrong... I bet you like Kendrick"
+            qLabel.text = "Wrong... I bet you like Kendrick" 
         }
     }
     
