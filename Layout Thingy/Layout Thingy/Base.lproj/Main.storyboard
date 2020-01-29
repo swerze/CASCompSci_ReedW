@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="v9D-6G-6dD">
+            <objects>
+                <viewController id="FR2-w3-6ak" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e90-EI-lDU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mnt Vernon" translatesAutoresizingMaskIntoConstraints="NO" id="AHQ-S9-3AZ">
+                                <rect key="frame" x="0.0" y="44" width="414" height="409"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="levit" translatesAutoresizingMaskIntoConstraints="NO" id="VqR-7j-FS3">
+                                <rect key="frame" x="0.0" y="453" width="414" height="409"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="cdW-r1-M6K" firstAttribute="trailing" secondItem="VqR-7j-FS3" secondAttribute="trailing" id="5hO-39-ynY"/>
+                            <constraint firstItem="VqR-7j-FS3" firstAttribute="height" secondItem="AHQ-S9-3AZ" secondAttribute="height" id="DGd-7s-J7f"/>
+                            <constraint firstItem="cdW-r1-M6K" firstAttribute="trailing" secondItem="AHQ-S9-3AZ" secondAttribute="trailing" id="M0x-EW-AYZ"/>
+                            <constraint firstItem="AHQ-S9-3AZ" firstAttribute="top" secondItem="cdW-r1-M6K" secondAttribute="top" id="PkV-gX-TTj"/>
+                            <constraint firstItem="VqR-7j-FS3" firstAttribute="width" secondItem="AHQ-S9-3AZ" secondAttribute="width" id="Qr1-e5-vA4"/>
+                            <constraint firstItem="cdW-r1-M6K" firstAttribute="bottom" secondItem="VqR-7j-FS3" secondAttribute="bottom" id="X54-4k-qdE"/>
+                            <constraint firstItem="VqR-7j-FS3" firstAttribute="top" secondItem="AHQ-S9-3AZ" secondAttribute="bottom" id="if1-uh-TNw"/>
+                            <constraint firstItem="AHQ-S9-3AZ" firstAttribute="leading" secondItem="cdW-r1-M6K" secondAttribute="leading" id="tTe-e7-EEX"/>
+                            <constraint firstItem="VqR-7j-FS3" firstAttribute="leading" secondItem="cdW-r1-M6K" secondAttribute="leading" id="x5Z-5B-Vir"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cdW-r1-M6K"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mMF-jk-fiJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="796" y="104"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Layout_Thingy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swerze" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YUg-gd-yAS">
+                                <rect key="frame" x="0.0" y="44" width="414" height="163.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NC, NY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Eh-xa-TcZ">
+                                <rect key="frame" x="0.0" y="207.5" width="414" height="163.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rainy Day Mushroom Pillow" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXt-NS-MwV">
+                                <rect key="frame" x="0.0" y="371" width="414" height="164"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Davvarie" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YfA-Bn-06r">
+                                <rect key="frame" x="0.0" y="535" width="414" height="163.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gfL-Tc-MQE">
+                                <rect key="frame" x="0.0" y="698.5" width="414" height="163.5"/>
+                                <state key="normal" title="OhBoyo"/>
+                                <connections>
+                                    <segue destination="FR2-w3-6ak" kind="show" id="yv2-kb-Zkm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="YfA-Bn-06r" firstAttribute="height" secondItem="YUg-gd-yAS" secondAttribute="height" id="1na-Jr-KUT"/>
+                            <constraint firstItem="gfL-Tc-MQE" firstAttribute="width" secondItem="YUg-gd-yAS" secondAttribute="width" id="34I-Iq-JIk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0Eh-xa-TcZ" secondAttribute="trailing" id="9cA-6N-dnJ"/>
+                            <constraint firstItem="YfA-Bn-06r" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Aec-5x-jvC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dXt-NS-MwV" secondAttribute="trailing" id="CIr-YJ-pmh"/>
+                            <constraint firstItem="dXt-NS-MwV" firstAttribute="top" secondItem="0Eh-xa-TcZ" secondAttribute="bottom" id="E0V-sx-3kv"/>
+                            <constraint firstItem="dXt-NS-MwV" firstAttribute="width" secondItem="YUg-gd-yAS" secondAttribute="width" id="IUS-Ib-4JC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YfA-Bn-06r" secondAttribute="trailing" id="LU0-xk-i7O"/>
+                            <constraint firstItem="0Eh-xa-TcZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="NJi-gs-dto"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YUg-gd-yAS" secondAttribute="trailing" id="PQx-ee-pUd"/>
+                            <constraint firstItem="gfL-Tc-MQE" firstAttribute="height" secondItem="YUg-gd-yAS" secondAttribute="height" id="SSx-qZ-Oct"/>
+                            <constraint firstItem="YUg-gd-yAS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="TCs-iq-n6N"/>
+                            <constraint firstItem="0Eh-xa-TcZ" firstAttribute="height" secondItem="YUg-gd-yAS" secondAttribute="height" id="ThQ-YF-uQ3"/>
+                            <constraint firstItem="gfL-Tc-MQE" firstAttribute="top" secondItem="YfA-Bn-06r" secondAttribute="bottom" id="VHc-LV-e7Z"/>
+                            <constraint firstItem="dXt-NS-MwV" firstAttribute="height" secondItem="YUg-gd-yAS" secondAttribute="height" id="Vmp-bF-rSK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gfL-Tc-MQE" secondAttribute="bottom" id="XFU-TP-QSy"/>
+                            <constraint firstItem="YfA-Bn-06r" firstAttribute="width" secondItem="YUg-gd-yAS" secondAttribute="width" id="ZNP-pR-vIf"/>
+                            <constraint firstItem="YfA-Bn-06r" firstAttribute="top" secondItem="dXt-NS-MwV" secondAttribute="bottom" id="aJ4-ds-Ukg"/>
+                            <constraint firstItem="dXt-NS-MwV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="co0-nX-r3l"/>
+                            <constraint firstItem="0Eh-xa-TcZ" firstAttribute="top" secondItem="YUg-gd-yAS" secondAttribute="bottom" id="g39-rt-E6y"/>
+                            <constraint firstItem="YUg-gd-yAS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mDC-Kc-dLw"/>
+                            <constraint firstItem="0Eh-xa-TcZ" firstAttribute="width" secondItem="YUg-gd-yAS" secondAttribute="width" id="pCB-gc-0cf"/>
+                            <constraint firstItem="gfL-Tc-MQE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="sR9-eR-NrM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gfL-Tc-MQE" secondAttribute="trailing" id="vP3-Ms-VRX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-38" y="104"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Mnt Vernon" width="399" height="550"/>
+        <image name="levit" width="1600" height="900"/>
+    </resources>
+</document>
