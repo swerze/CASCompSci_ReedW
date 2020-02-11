@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="dyna_buttoes" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BBi-LF-gOb">
+                                <rect key="frame" x="0.0" y="44" width="414" height="409"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ybu-0C-0rF">
+                                <rect key="frame" x="0.0" y="453" width="414" height="409"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ybu-0C-0rF" secondAttribute="bottom" id="4BT-LF-vZU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ybu-0C-0rF" secondAttribute="trailing" id="9jZ-5x-gvh"/>
+                            <constraint firstItem="ybu-0C-0rF" firstAttribute="top" secondItem="BBi-LF-gOb" secondAttribute="bottom" id="9xG-ve-4p8"/>
+                            <constraint firstItem="BBi-LF-gOb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="JhM-h4-Jg8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ybu-0C-0rF" secondAttribute="bottom" id="Lv7-Yi-5JQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BBi-LF-gOb" secondAttribute="trailing" id="NfN-Sd-gUu"/>
+                            <constraint firstItem="BBi-LF-gOb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="P1f-Xd-vzb"/>
+                            <constraint firstItem="BBi-LF-gOb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="WZ8-08-dAr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ybu-0C-0rF" secondAttribute="trailing" id="agZ-y5-lSg"/>
+                            <constraint firstItem="BBi-LF-gOb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="agu-92-6EB"/>
+                            <constraint firstItem="ybu-0C-0rF" firstAttribute="width" secondItem="BBi-LF-gOb" secondAttribute="width" id="dWC-Ju-NCq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BBi-LF-gOb" secondAttribute="trailing" id="h2x-5z-UrG"/>
+                            <constraint firstItem="ybu-0C-0rF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="i72-XO-gfw"/>
+                            <constraint firstItem="ybu-0C-0rF" firstAttribute="height" secondItem="BBi-LF-gOb" secondAttribute="height" id="nJp-Kh-f4x"/>
+                            <constraint firstItem="ybu-0C-0rF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="olN-Qn-G5o"/>
+                            <constraint firstItem="ybu-0C-0rF" firstAttribute="top" secondItem="BBi-LF-gOb" secondAttribute="bottom" id="vCK-ky-CAZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="swerzeButton" destination="BBi-LF-gOb" id="MG2-h4-KdN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

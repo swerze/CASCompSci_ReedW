@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		802763FA23EDD4FC00CB0E7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802763F923EDD4FC00CB0E7A /* AppDelegate.swift */; };
+		802763FC23EDD4FC00CB0E7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802763FB23EDD4FC00CB0E7A /* ViewController.swift */; };
+		802763FF23EDD4FC00CB0E7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 802763FD23EDD4FC00CB0E7A /* Main.storyboard */; };
+		8027640123EDD4FD00CB0E7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8027640023EDD4FD00CB0E7A /* Assets.xcassets */; };
+		8027640423EDD4FD00CB0E7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8027640223EDD4FD00CB0E7A /* LaunchScreen.storyboard */; };
+		8027640F23EDD4FD00CB0E7A /* dyna_buttoesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8027640E23EDD4FD00CB0E7A /* dyna_buttoesTests.swift */; };
+		8027641A23EDD4FD00CB0E7A /* dyna_buttoesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8027641923EDD4FD00CB0E7A /* dyna_buttoesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8027640B23EDD4FD00CB0E7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 802763EE23EDD4FB00CB0E7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 802763F523EDD4FB00CB0E7A;
+			remoteInfo = "dyna buttoes";
+		};
+		8027641623EDD4FD00CB0E7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 802763EE23EDD4FB00CB0E7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 802763F523EDD4FB00CB0E7A;
+			remoteInfo = "dyna buttoes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		802763F623EDD4FC00CB0E7A /* dyna buttoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dyna buttoes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		802763F923EDD4FC00CB0E7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		802763FB23EDD4FC00CB0E7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		802763FE23EDD4FC00CB0E7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8027640023EDD4FD00CB0E7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8027640323EDD4FD00CB0E7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8027640523EDD4FD00CB0E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8027640A23EDD4FD00CB0E7A /* dyna buttoesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dyna buttoesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8027640E23EDD4FD00CB0E7A /* dyna_buttoesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dyna_buttoesTests.swift; sourceTree = "<group>"; };
+		8027641023EDD4FD00CB0E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8027641523EDD4FD00CB0E7A /* dyna buttoesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dyna buttoesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8027641923EDD4FD00CB0E7A /* dyna_buttoesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dyna_buttoesUITests.swift; sourceTree = "<group>"; };
+		8027641B23EDD4FD00CB0E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		802763F323EDD4FB00CB0E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8027640723EDD4FD00CB0E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8027641223EDD4FD00CB0E7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		802763ED23EDD4FB00CB0E7A = {
+			isa = PBXGroup;
+			children = (
+				802763F823EDD4FC00CB0E7A /* dyna buttoes */,
+				8027640D23EDD4FD00CB0E7A /* dyna buttoesTests */,
+				8027641823EDD4FD00CB0E7A /* dyna buttoesUITests */,
+				802763F723EDD4FC00CB0E7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		802763F723EDD4FC00CB0E7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				802763F623EDD4FC00CB0E7A /* dyna buttoes.app */,
+				8027640A23EDD4FD00CB0E7A /* dyna buttoesTests.xctest */,
+				8027641523EDD4FD00CB0E7A /* dyna buttoesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		802763F823EDD4FC00CB0E7A /* dyna buttoes */ = {
+			isa = PBXGroup;
+			children = (
+				802763F923EDD4FC00CB0E7A /* AppDelegate.swift */,
+				802763FB23EDD4FC00CB0E7A /* ViewController.swift */,
+				802763FD23EDD4FC00CB0E7A /* Main.storyboard */,
+				8027640023EDD4FD00CB0E7A /* Assets.xcassets */,
+				8027640223EDD4FD00CB0E7A /* LaunchScreen.storyboard */,
+				8027640523EDD4FD00CB0E7A /* Info.plist */,
+			);
+			path = "dyna buttoes";
+			sourceTree = "<group>";
+		};
+		8027640D23EDD4FD00CB0E7A /* dyna buttoesTests */ = {
+			isa = PBXGroup;
+			children = (
+				8027640E23EDD4FD00CB0E7A /* dyna_buttoesTests.swift */,
+				8027641023EDD4FD00CB0E7A /* Info.plist */,
+			);
+			path = "dyna buttoesTests";
+			sourceTree = "<group>";
+		};
+		8027641823EDD4FD00CB0E7A /* dyna buttoesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8027641923EDD4FD00CB0E7A /* dyna_buttoesUITests.swift */,
+				8027641B23EDD4FD00CB0E7A /* Info.plist */,
+			);
+			path = "dyna buttoesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		802763F523EDD4FB00CB0E7A /* dyna buttoes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8027641E23EDD4FD00CB0E7A /* Build configuration list for PBXNativeTarget "dyna buttoes" */;
+			buildPhases = (
+				802763F223EDD4FB00CB0E7A /* Sources */,
+				802763F323EDD4FB00CB0E7A /* Frameworks */,
+				802763F423EDD4FB00CB0E7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dyna buttoes";
+			productName = "dyna buttoes";
+			productReference = 802763F623EDD4FC00CB0E7A /* dyna buttoes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8027640923EDD4FD00CB0E7A /* dyna buttoesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8027642123EDD4FD00CB0E7A /* Build configuration list for PBXNativeTarget "dyna buttoesTests" */;
+			buildPhases = (
+				8027640623EDD4FD00CB0E7A /* Sources */,
+				8027640723EDD4FD00CB0E7A /* Frameworks */,
+				8027640823EDD4FD00CB0E7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8027640C23EDD4FD00CB0E7A /* PBXTargetDependency */,
+			);
+			name = "dyna buttoesTests";
+			productName = "dyna buttoesTests";
+			productReference = 8027640A23EDD4FD00CB0E7A /* dyna buttoesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8027641423EDD4FD00CB0E7A /* dyna buttoesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8027642423EDD4FD00CB0E7A /* Build configuration list for PBXNativeTarget "dyna buttoesUITests" */;
+			buildPhases = (
+				8027641123EDD4FD00CB0E7A /* Sources */,
+				8027641223EDD4FD00CB0E7A /* Frameworks */,
+				8027641323EDD4FD00CB0E7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8027641723EDD4FD00CB0E7A /* PBXTargetDependency */,
+			);
+			name = "dyna buttoesUITests";
+			productName = "dyna buttoesUITests";
+			productReference = 8027641523EDD4FD00CB0E7A /* dyna buttoesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		802763EE23EDD4FB00CB0E7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Reed Wilson";
+				TargetAttributes = {
+					802763F523EDD4FB00CB0E7A = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					8027640923EDD4FD00CB0E7A = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 802763F523EDD4FB00CB0E7A;
+					};
+					8027641423EDD4FD00CB0E7A = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 802763F523EDD4FB00CB0E7A;
+					};
+				};
+			};
+			buildConfigurationList = 802763F123EDD4FB00CB0E7A /* Build configuration list for PBXProject "dyna buttoes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 802763ED23EDD4FB00CB0E7A;
+			productRefGroup = 802763F723EDD4FC00CB0E7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				802763F523EDD4FB00CB0E7A /* dyna buttoes */,
+				8027640923EDD4FD00CB0E7A /* dyna buttoesTests */,
+				8027641423EDD4FD00CB0E7A /* dyna buttoesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		802763F423EDD4FB00CB0E7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8027640423EDD4FD00CB0E7A /* LaunchScreen.storyboard in Resources */,
+				8027640123EDD4FD00CB0E7A /* Assets.xcassets in Resources */,
+				802763FF23EDD4FC00CB0E7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8027640823EDD4FD00CB0E7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8027641323EDD4FD00CB0E7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		802763F223EDD4FB00CB0E7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				802763FC23EDD4FC00CB0E7A /* ViewController.swift in Sources */,
+				802763FA23EDD4FC00CB0E7A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8027640623EDD4FD00CB0E7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8027640F23EDD4FD00CB0E7A /* dyna_buttoesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8027641123EDD4FD00CB0E7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8027641A23EDD4FD00CB0E7A /* dyna_buttoesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8027640C23EDD4FD00CB0E7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 802763F523EDD4FB00CB0E7A /* dyna buttoes */;
+			targetProxy = 8027640B23EDD4FD00CB0E7A /* PBXContainerItemProxy */;
+		};
+		8027641723EDD4FD00CB0E7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 802763F523EDD4FB00CB0E7A /* dyna buttoes */;
+			targetProxy = 8027641623EDD4FD00CB0E7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		802763FD23EDD4FC00CB0E7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				802763FE23EDD4FC00CB0E7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8027640223EDD4FD00CB0E7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8027640323EDD4FD00CB0E7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8027641C23EDD4FD00CB0E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8027641D23EDD4FD00CB0E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8027641F23EDD4FD00CB0E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58L7ZLHMXX;
+				INFOPLIST_FILE = "dyna buttoes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.dyna-buttoes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8027642023EDD4FD00CB0E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58L7ZLHMXX;
+				INFOPLIST_FILE = "dyna buttoes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.dyna-buttoes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8027642223EDD4FD00CB0E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58L7ZLHMXX;
+				INFOPLIST_FILE = "dyna buttoesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.dyna-buttoesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dyna buttoes.app/dyna buttoes";
+			};
+			name = Debug;
+		};
+		8027642323EDD4FD00CB0E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58L7ZLHMXX;
+				INFOPLIST_FILE = "dyna buttoesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.dyna-buttoesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dyna buttoes.app/dyna buttoes";
+			};
+			name = Release;
+		};
+		8027642523EDD4FD00CB0E7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58L7ZLHMXX;
+				INFOPLIST_FILE = "dyna buttoesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.dyna-buttoesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dyna buttoes";
+			};
+			name = Debug;
+		};
+		8027642623EDD4FD00CB0E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58L7ZLHMXX;
+				INFOPLIST_FILE = "dyna buttoesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.dyna-buttoesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dyna buttoes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		802763F123EDD4FB00CB0E7A /* Build configuration list for PBXProject "dyna buttoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8027641C23EDD4FD00CB0E7A /* Debug */,
+				8027641D23EDD4FD00CB0E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8027641E23EDD4FD00CB0E7A /* Build configuration list for PBXNativeTarget "dyna buttoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8027641F23EDD4FD00CB0E7A /* Debug */,
+				8027642023EDD4FD00CB0E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8027642123EDD4FD00CB0E7A /* Build configuration list for PBXNativeTarget "dyna buttoesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8027642223EDD4FD00CB0E7A /* Debug */,
+				8027642323EDD4FD00CB0E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8027642423EDD4FD00CB0E7A /* Build configuration list for PBXNativeTarget "dyna buttoesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8027642523EDD4FD00CB0E7A /* Debug */,
+				8027642623EDD4FD00CB0E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 802763EE23EDD4FB00CB0E7A /* Project object */;
+}

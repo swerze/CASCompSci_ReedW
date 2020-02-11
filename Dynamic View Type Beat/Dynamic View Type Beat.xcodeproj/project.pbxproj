@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8090B7DA23EC75F4007EE286 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8090B7D923EC75F4007EE286 /* AppDelegate.swift */; };
+		8090B7DC23EC75F4007EE286 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8090B7DB23EC75F4007EE286 /* ViewController.swift */; };
+		8090B7DF23EC75F4007EE286 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8090B7DD23EC75F4007EE286 /* Main.storyboard */; };
+		8090B7E123EC75F5007EE286 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8090B7E023EC75F5007EE286 /* Assets.xcassets */; };
+		8090B7E423EC75F5007EE286 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8090B7E223EC75F5007EE286 /* LaunchScreen.storyboard */; };
+		8090B7EF23EC75F6007EE286 /* Dynamic_View_Type_BeatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8090B7EE23EC75F6007EE286 /* Dynamic_View_Type_BeatTests.swift */; };
+		8090B7FA23EC75F6007EE286 /* Dynamic_View_Type_BeatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8090B7F923EC75F6007EE286 /* Dynamic_View_Type_BeatUITests.swift */; };
+		8090B80A23EC79EB007EE286 /* KingStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8090B80923EC79EB007EE286 /* KingStackViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8090B7EB23EC75F6007EE286 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8090B7CE23EC75F4007EE286 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8090B7D523EC75F4007EE286;
+			remoteInfo = "Dynamic View Type Beat";
+		};
+		8090B7F623EC75F6007EE286 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8090B7CE23EC75F4007EE286 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8090B7D523EC75F4007EE286;
+			remoteInfo = "Dynamic View Type Beat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8090B7D623EC75F4007EE286 /* Dynamic View Type Beat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dynamic View Type Beat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8090B7D923EC75F4007EE286 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8090B7DB23EC75F4007EE286 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8090B7DE23EC75F4007EE286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8090B7E023EC75F5007EE286 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8090B7E323EC75F5007EE286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8090B7E523EC75F5007EE286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8090B7EA23EC75F6007EE286 /* Dynamic View Type BeatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dynamic View Type BeatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8090B7EE23EC75F6007EE286 /* Dynamic_View_Type_BeatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic_View_Type_BeatTests.swift; sourceTree = "<group>"; };
+		8090B7F023EC75F6007EE286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8090B7F523EC75F6007EE286 /* Dynamic View Type BeatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dynamic View Type BeatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8090B7F923EC75F6007EE286 /* Dynamic_View_Type_BeatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic_View_Type_BeatUITests.swift; sourceTree = "<group>"; };
+		8090B7FB23EC75F6007EE286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8090B80923EC79EB007EE286 /* KingStackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingStackViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8090B7D323EC75F4007EE286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8090B7E723EC75F6007EE286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8090B7F223EC75F6007EE286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8090B7CD23EC75F4007EE286 = {
+			isa = PBXGroup;
+			children = (
+				8090B7D823EC75F4007EE286 /* Dynamic View Type Beat */,
+				8090B7ED23EC75F6007EE286 /* Dynamic View Type BeatTests */,
+				8090B7F823EC75F6007EE286 /* Dynamic View Type BeatUITests */,
+				8090B7D723EC75F4007EE286 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8090B7D723EC75F4007EE286 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8090B7D623EC75F4007EE286 /* Dynamic View Type Beat.app */,
+				8090B7EA23EC75F6007EE286 /* Dynamic View Type BeatTests.xctest */,
+				8090B7F523EC75F6007EE286 /* Dynamic View Type BeatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8090B7D823EC75F4007EE286 /* Dynamic View Type Beat */ = {
+			isa = PBXGroup;
+			children = (
+				8090B7D923EC75F4007EE286 /* AppDelegate.swift */,
+				8090B7DB23EC75F4007EE286 /* ViewController.swift */,
+				8090B7DD23EC75F4007EE286 /* Main.storyboard */,
+				8090B7E023EC75F5007EE286 /* Assets.xcassets */,
+				8090B7E223EC75F5007EE286 /* LaunchScreen.storyboard */,
+				8090B80923EC79EB007EE286 /* KingStackViewController.swift */,
+				8090B7E523EC75F5007EE286 /* Info.plist */,
+			);
+			path = "Dynamic View Type Beat";
+			sourceTree = "<group>";
+		};
+		8090B7ED23EC75F6007EE286 /* Dynamic View Type BeatTests */ = {
+			isa = PBXGroup;
+			children = (
+				8090B7EE23EC75F6007EE286 /* Dynamic_View_Type_BeatTests.swift */,
+				8090B7F023EC75F6007EE286 /* Info.plist */,
+			);
+			path = "Dynamic View Type BeatTests";
+			sourceTree = "<group>";
+		};
+		8090B7F823EC75F6007EE286 /* Dynamic View Type BeatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8090B7F923EC75F6007EE286 /* Dynamic_View_Type_BeatUITests.swift */,
+				8090B7FB23EC75F6007EE286 /* Info.plist */,
+			);
+			path = "Dynamic View Type BeatUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8090B7D523EC75F4007EE286 /* Dynamic View Type Beat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8090B7FE23EC75F6007EE286 /* Build configuration list for PBXNativeTarget "Dynamic View Type Beat" */;
+			buildPhases = (
+				8090B7D223EC75F4007EE286 /* Sources */,
+				8090B7D323EC75F4007EE286 /* Frameworks */,
+				8090B7D423EC75F4007EE286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dynamic View Type Beat";
+			productName = "Dynamic View Type Beat";
+			productReference = 8090B7D623EC75F4007EE286 /* Dynamic View Type Beat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8090B7E923EC75F6007EE286 /* Dynamic View Type BeatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8090B80123EC75F6007EE286 /* Build configuration list for PBXNativeTarget "Dynamic View Type BeatTests" */;
+			buildPhases = (
+				8090B7E623EC75F6007EE286 /* Sources */,
+				8090B7E723EC75F6007EE286 /* Frameworks */,
+				8090B7E823EC75F6007EE286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8090B7EC23EC75F6007EE286 /* PBXTargetDependency */,
+			);
+			name = "Dynamic View Type BeatTests";
+			productName = "Dynamic View Type BeatTests";
+			productReference = 8090B7EA23EC75F6007EE286 /* Dynamic View Type BeatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8090B7F423EC75F6007EE286 /* Dynamic View Type BeatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8090B80423EC75F6007EE286 /* Build configuration list for PBXNativeTarget "Dynamic View Type BeatUITests" */;
+			buildPhases = (
+				8090B7F123EC75F6007EE286 /* Sources */,
+				8090B7F223EC75F6007EE286 /* Frameworks */,
+				8090B7F323EC75F6007EE286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8090B7F723EC75F6007EE286 /* PBXTargetDependency */,
+			);
+			name = "Dynamic View Type BeatUITests";
+			productName = "Dynamic View Type BeatUITests";
+			productReference = 8090B7F523EC75F6007EE286 /* Dynamic View Type BeatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8090B7CE23EC75F4007EE286 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Reed Wilson";
+				TargetAttributes = {
+					8090B7D523EC75F4007EE286 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					8090B7E923EC75F6007EE286 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 8090B7D523EC75F4007EE286;
+					};
+					8090B7F423EC75F6007EE286 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 8090B7D523EC75F4007EE286;
+					};
+				};
+			};
+			buildConfigurationList = 8090B7D123EC75F4007EE286 /* Build configuration list for PBXProject "Dynamic View Type Beat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8090B7CD23EC75F4007EE286;
+			productRefGroup = 8090B7D723EC75F4007EE286 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8090B7D523EC75F4007EE286 /* Dynamic View Type Beat */,
+				8090B7E923EC75F6007EE286 /* Dynamic View Type BeatTests */,
+				8090B7F423EC75F6007EE286 /* Dynamic View Type BeatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8090B7D423EC75F4007EE286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8090B7E423EC75F5007EE286 /* LaunchScreen.storyboard in Resources */,
+				8090B7E123EC75F5007EE286 /* Assets.xcassets in Resources */,
+				8090B7DF23EC75F4007EE286 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8090B7E823EC75F6007EE286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8090B7F323EC75F6007EE286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8090B7D223EC75F4007EE286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8090B7DC23EC75F4007EE286 /* ViewController.swift in Sources */,
+				8090B80A23EC79EB007EE286 /* KingStackViewController.swift in Sources */,
+				8090B7DA23EC75F4007EE286 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8090B7E623EC75F6007EE286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8090B7EF23EC75F6007EE286 /* Dynamic_View_Type_BeatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8090B7F123EC75F6007EE286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8090B7FA23EC75F6007EE286 /* Dynamic_View_Type_BeatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8090B7EC23EC75F6007EE286 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8090B7D523EC75F4007EE286 /* Dynamic View Type Beat */;
+			targetProxy = 8090B7EB23EC75F6007EE286 /* PBXContainerItemProxy */;
+		};
+		8090B7F723EC75F6007EE286 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8090B7D523EC75F4007EE286 /* Dynamic View Type Beat */;
+			targetProxy = 8090B7F623EC75F6007EE286 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8090B7DD23EC75F4007EE286 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8090B7DE23EC75F4007EE286 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8090B7E223EC75F5007EE286 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8090B7E323EC75F5007EE286 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8090B7FC23EC75F6007EE286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8090B7FD23EC75F6007EE286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8090B7FF23EC75F6007EE286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58L7ZLHMXX;
+				INFOPLIST_FILE = "Dynamic View Type Beat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.Dynamic-View-Type-Beat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8090B80023EC75F6007EE286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58L7ZLHMXX;
+				INFOPLIST_FILE = "Dynamic View Type Beat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.Dynamic-View-Type-Beat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8090B80223EC75F6007EE286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58L7ZLHMXX;
+				INFOPLIST_FILE = "Dynamic View Type BeatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.Dynamic-View-Type-BeatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dynamic View Type Beat.app/Dynamic View Type Beat";
+			};
+			name = Debug;
+		};
+		8090B80323EC75F6007EE286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58L7ZLHMXX;
+				INFOPLIST_FILE = "Dynamic View Type BeatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.Dynamic-View-Type-BeatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dynamic View Type Beat.app/Dynamic View Type Beat";
+			};
+			name = Release;
+		};
+		8090B80523EC75F6007EE286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58L7ZLHMXX;
+				INFOPLIST_FILE = "Dynamic View Type BeatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.Dynamic-View-Type-BeatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dynamic View Type Beat";
+			};
+			name = Debug;
+		};
+		8090B80623EC75F6007EE286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58L7ZLHMXX;
+				INFOPLIST_FILE = "Dynamic View Type BeatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.Dynamic-View-Type-BeatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dynamic View Type Beat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8090B7D123EC75F4007EE286 /* Build configuration list for PBXProject "Dynamic View Type Beat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8090B7FC23EC75F6007EE286 /* Debug */,
+				8090B7FD23EC75F6007EE286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8090B7FE23EC75F6007EE286 /* Build configuration list for PBXNativeTarget "Dynamic View Type Beat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8090B7FF23EC75F6007EE286 /* Debug */,
+				8090B80023EC75F6007EE286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8090B80123EC75F6007EE286 /* Build configuration list for PBXNativeTarget "Dynamic View Type BeatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8090B80223EC75F6007EE286 /* Debug */,
+				8090B80323EC75F6007EE286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8090B80423EC75F6007EE286 /* Build configuration list for PBXNativeTarget "Dynamic View Type BeatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8090B80523EC75F6007EE286 /* Debug */,
+				8090B80623EC75F6007EE286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8090B7CE23EC75F4007EE286 /* Project object */;
+}

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dynamic View Type Beat/KingStackViewController.swift"
+            timestampString = "603132263.594173"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "KingStackViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dynamic_View_Type_Beat.KingStackViewController.kingStackView.getter : Swift.Optional&lt;__C.UIStackView&gt;"
+                  moduleName = "Dynamic View Type Beat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/NotReed/Documents/GitHub/CASCompSci_ReedW/Dynamic%20View%20Type%20Beat/Dynamic%20View%20Type%20Beat/KingStackViewController.swift"
+                  timestampString = "603132265.342741"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dynamic_View_Type_Beat.KingStackViewController.kingStackView.setter : Swift.Optional&lt;__C.UIStackView&gt;"
+                  moduleName = "Dynamic View Type Beat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/NotReed/Documents/GitHub/CASCompSci_ReedW/Dynamic%20View%20Type%20Beat/Dynamic%20View%20Type%20Beat/KingStackViewController.swift"
+                  timestampString = "603132265.3625931"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "106">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dynamic_View_Type_Beat.KingStackViewController.kingStackView.modify : Swift.Optional&lt;__C.UIStackView&gt;"
+                  moduleName = "Dynamic View Type Beat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/NotReed/Documents/GitHub/CASCompSci_ReedW/Dynamic%20View%20Type%20Beat/Dynamic%20View%20Type%20Beat/KingStackViewController.swift"
+                  timestampString = "603132265.366225"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "69">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dynamic_View_Type_Beat.KingStackViewController.kingStackView.modify : Swift.Optional&lt;__C.UIStackView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Dynamic View Type Beat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/NotReed/Documents/GitHub/CASCompSci_ReedW/Dynamic%20View%20Type%20Beat/Dynamic%20View%20Type%20Beat/KingStackViewController.swift"
+                  timestampString = "603132265.368831"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dynamic_View_Type_Beat.KingStackViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Dynamic_View_Type_Beat.KingStackViewController"
+                  moduleName = "Dynamic View Type Beat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/NotReed/Documents/GitHub/CASCompSci_ReedW/Dynamic%20View%20Type%20Beat/Dynamic%20View%20Type%20Beat/KingStackViewController.swift"
+                  timestampString = "603132265.370876"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "284">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dynamic_View_Type_Beat.KingStackViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Dynamic_View_Type_Beat.KingStackViewController&gt;"
+                  moduleName = "Dynamic View Type Beat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/NotReed/Documents/GitHub/CASCompSci_ReedW/Dynamic%20View%20Type%20Beat/Dynamic%20View%20Type%20Beat/KingStackViewController.swift"
+                  timestampString = "603132265.373035"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "183">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Dynamic View Type Beat/KingStackViewController.swift"
+            timestampString = "603132267.671988"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Dynamic_View_Type_Beat.KingStackViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Dynamic View Type Beat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/NotReed/Documents/GitHub/CASCompSci_ReedW/Dynamic%20View%20Type%20Beat/Dynamic%20View%20Type%20Beat/KingStackViewController.swift"
+                  timestampString = "603132267.895389"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "276">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int) -&gt; __C.UILabel in Dynamic_View_Type_Beat.KingStackViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Dynamic View Type Beat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/NotReed/Documents/GitHub/CASCompSci_ReedW/Dynamic%20View%20Type%20Beat/Dynamic%20View%20Type%20Beat/KingStackViewController.swift"
+                  timestampString = "603132267.900557"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
