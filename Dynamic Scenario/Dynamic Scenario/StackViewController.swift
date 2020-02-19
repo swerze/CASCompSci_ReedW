@@ -15,17 +15,17 @@ class StackViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         let buttons = (1...buttonCount).map({ (x) -> UIButton in
             let newButton = UIButton()
-            newButton.titleLabel!.text = "Button \(x)"
-            newButton.titleLabel?.textColor = UIColor.black
+            newButton.addTarget(self, action: #selector(showAlert), for: .touchUpInside)
+            newButton.setTitle("Button \(x)", for: .normal)
+            newButton.setTitleColor(UIColor.black, for: .normal)
             return newButton
         })
         for button in buttons {
             stackView.addArrangedSubview(button)
-            let constraint = NSLayoutConstraint(item: button,
-                                                attribute: .height, relatedBy: .equal, toItem: buttons[0], attribute: .height, multiplier: 1, constant: 0)
+            let constraint = NSLayoutConstraint(item: button, attribute: .height, relatedBy: .equal, toItem: buttons[0], attribute: .height, multiplier: 1, constant: 0)
             if button != buttons[0] {
                 stackView.addConstraint(constraint)
             }
