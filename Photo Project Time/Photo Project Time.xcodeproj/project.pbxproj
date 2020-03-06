@@ -7,66 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		800547742412B60C0083AE55 /* galleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800547732412B60C0083AE55 /* galleryViewController.swift */; };
-		80EE1D4B23FEFC0300B33B3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE1D4A23FEFC0300B33B3B /* AppDelegate.swift */; };
-		80EE1D4D23FEFC0300B33B3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE1D4C23FEFC0300B33B3B /* ViewController.swift */; };
-		80EE1D5023FEFC0300B33B3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80EE1D4E23FEFC0300B33B3B /* Main.storyboard */; };
-		80EE1D5223FEFC0400B33B3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80EE1D5123FEFC0400B33B3B /* Assets.xcassets */; };
-		80EE1D5523FEFC0400B33B3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80EE1D5323FEFC0400B33B3B /* LaunchScreen.storyboard */; };
-		80EE1D6023FEFC0400B33B3B /* photo_takerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE1D5F23FEFC0400B33B3B /* photo_takerTests.swift */; };
-		80EE1D6B23FEFC0400B33B3B /* photo_takerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE1D6A23FEFC0400B33B3B /* photo_takerUITests.swift */; };
+		8005474424121D210083AE55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8005474324121D210083AE55 /* AppDelegate.swift */; };
+		8005474624121D210083AE55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8005474524121D210083AE55 /* ViewController.swift */; };
+		8005474924121D210083AE55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8005474724121D210083AE55 /* Main.storyboard */; };
+		8005474B24121D230083AE55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8005474A24121D230083AE55 /* Assets.xcassets */; };
+		8005474E24121D230083AE55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8005474C24121D230083AE55 /* LaunchScreen.storyboard */; };
+		8005475924121D230083AE55 /* Photo_Project_TimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8005475824121D230083AE55 /* Photo_Project_TimeTests.swift */; };
+		8005476424121D230083AE55 /* Photo_Project_TimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8005476324121D230083AE55 /* Photo_Project_TimeUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		80EE1D5C23FEFC0400B33B3B /* PBXContainerItemProxy */ = {
+		8005475524121D230083AE55 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 80EE1D3F23FEFC0200B33B3B /* Project object */;
+			containerPortal = 8005473824121D200083AE55 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 80EE1D4623FEFC0300B33B3B;
-			remoteInfo = "photo taker";
+			remoteGlobalIDString = 8005473F24121D210083AE55;
+			remoteInfo = "Photo Project Time";
 		};
-		80EE1D6723FEFC0400B33B3B /* PBXContainerItemProxy */ = {
+		8005476024121D230083AE55 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 80EE1D3F23FEFC0200B33B3B /* Project object */;
+			containerPortal = 8005473824121D200083AE55 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 80EE1D4623FEFC0300B33B3B;
-			remoteInfo = "photo taker";
+			remoteGlobalIDString = 8005473F24121D210083AE55;
+			remoteInfo = "Photo Project Time";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		800547732412B60C0083AE55 /* galleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = galleryViewController.swift; sourceTree = "<group>"; };
-		80EE1D4723FEFC0300B33B3B /* photo taker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "photo taker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		80EE1D4A23FEFC0300B33B3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		80EE1D4C23FEFC0300B33B3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		80EE1D4F23FEFC0300B33B3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		80EE1D5123FEFC0400B33B3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		80EE1D5423FEFC0400B33B3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		80EE1D5623FEFC0400B33B3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80EE1D5B23FEFC0400B33B3B /* photo takerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "photo takerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		80EE1D5F23FEFC0400B33B3B /* photo_takerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photo_takerTests.swift; sourceTree = "<group>"; };
-		80EE1D6123FEFC0400B33B3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80EE1D6623FEFC0400B33B3B /* photo takerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "photo takerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		80EE1D6A23FEFC0400B33B3B /* photo_takerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photo_takerUITests.swift; sourceTree = "<group>"; };
-		80EE1D6C23FEFC0400B33B3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8005474024121D210083AE55 /* Photo Project Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Project Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8005474324121D210083AE55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8005474524121D210083AE55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8005474824121D210083AE55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8005474A24121D230083AE55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8005474D24121D230083AE55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8005474F24121D230083AE55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8005475424121D230083AE55 /* Photo Project TimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photo Project TimeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8005475824121D230083AE55 /* Photo_Project_TimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo_Project_TimeTests.swift; sourceTree = "<group>"; };
+		8005475A24121D230083AE55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8005475F24121D230083AE55 /* Photo Project TimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photo Project TimeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8005476324121D230083AE55 /* Photo_Project_TimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo_Project_TimeUITests.swift; sourceTree = "<group>"; };
+		8005476524121D230083AE55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		80EE1D4423FEFC0300B33B3B /* Frameworks */ = {
+		8005473D24121D210083AE55 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80EE1D5823FEFC0400B33B3B /* Frameworks */ = {
+		8005475124121D230083AE55 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80EE1D6323FEFC0400B33B3B /* Frameworks */ = {
+		8005475C24121D230083AE55 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,138 +74,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		80EE1D3E23FEFC0200B33B3B = {
+		8005473724121D200083AE55 = {
 			isa = PBXGroup;
 			children = (
-				80EE1D4923FEFC0300B33B3B /* photo taker */,
-				80EE1D5E23FEFC0400B33B3B /* photo takerTests */,
-				80EE1D6923FEFC0400B33B3B /* photo takerUITests */,
-				80EE1D4823FEFC0300B33B3B /* Products */,
+				8005474224121D210083AE55 /* Photo Project Time */,
+				8005475724121D230083AE55 /* Photo Project TimeTests */,
+				8005476224121D230083AE55 /* Photo Project TimeUITests */,
+				8005474124121D210083AE55 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		80EE1D4823FEFC0300B33B3B /* Products */ = {
+		8005474124121D210083AE55 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				80EE1D4723FEFC0300B33B3B /* photo taker.app */,
-				80EE1D5B23FEFC0400B33B3B /* photo takerTests.xctest */,
-				80EE1D6623FEFC0400B33B3B /* photo takerUITests.xctest */,
+				8005474024121D210083AE55 /* Photo Project Time.app */,
+				8005475424121D230083AE55 /* Photo Project TimeTests.xctest */,
+				8005475F24121D230083AE55 /* Photo Project TimeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		80EE1D4923FEFC0300B33B3B /* photo taker */ = {
+		8005474224121D210083AE55 /* Photo Project Time */ = {
 			isa = PBXGroup;
 			children = (
-				80EE1D4A23FEFC0300B33B3B /* AppDelegate.swift */,
-				80EE1D4C23FEFC0300B33B3B /* ViewController.swift */,
-				80EE1D4E23FEFC0300B33B3B /* Main.storyboard */,
-				800547732412B60C0083AE55 /* galleryViewController.swift */,
-				80EE1D5123FEFC0400B33B3B /* Assets.xcassets */,
-				80EE1D5323FEFC0400B33B3B /* LaunchScreen.storyboard */,
-				80EE1D5623FEFC0400B33B3B /* Info.plist */,
+				8005474324121D210083AE55 /* AppDelegate.swift */,
+				8005474524121D210083AE55 /* ViewController.swift */,
+				8005474724121D210083AE55 /* Main.storyboard */,
+				8005474A24121D230083AE55 /* Assets.xcassets */,
+				8005474C24121D230083AE55 /* LaunchScreen.storyboard */,
+				8005474F24121D230083AE55 /* Info.plist */,
 			);
-			path = "photo taker";
+			path = "Photo Project Time";
 			sourceTree = "<group>";
 		};
-		80EE1D5E23FEFC0400B33B3B /* photo takerTests */ = {
+		8005475724121D230083AE55 /* Photo Project TimeTests */ = {
 			isa = PBXGroup;
 			children = (
-				80EE1D5F23FEFC0400B33B3B /* photo_takerTests.swift */,
-				80EE1D6123FEFC0400B33B3B /* Info.plist */,
+				8005475824121D230083AE55 /* Photo_Project_TimeTests.swift */,
+				8005475A24121D230083AE55 /* Info.plist */,
 			);
-			path = "photo takerTests";
+			path = "Photo Project TimeTests";
 			sourceTree = "<group>";
 		};
-		80EE1D6923FEFC0400B33B3B /* photo takerUITests */ = {
+		8005476224121D230083AE55 /* Photo Project TimeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				80EE1D6A23FEFC0400B33B3B /* photo_takerUITests.swift */,
-				80EE1D6C23FEFC0400B33B3B /* Info.plist */,
+				8005476324121D230083AE55 /* Photo_Project_TimeUITests.swift */,
+				8005476524121D230083AE55 /* Info.plist */,
 			);
-			path = "photo takerUITests";
+			path = "Photo Project TimeUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		80EE1D4623FEFC0300B33B3B /* photo taker */ = {
+		8005473F24121D210083AE55 /* Photo Project Time */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80EE1D6F23FEFC0400B33B3B /* Build configuration list for PBXNativeTarget "photo taker" */;
+			buildConfigurationList = 8005476824121D230083AE55 /* Build configuration list for PBXNativeTarget "Photo Project Time" */;
 			buildPhases = (
-				80EE1D4323FEFC0300B33B3B /* Sources */,
-				80EE1D4423FEFC0300B33B3B /* Frameworks */,
-				80EE1D4523FEFC0300B33B3B /* Resources */,
+				8005473C24121D210083AE55 /* Sources */,
+				8005473D24121D210083AE55 /* Frameworks */,
+				8005473E24121D210083AE55 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "photo taker";
-			productName = "photo taker";
-			productReference = 80EE1D4723FEFC0300B33B3B /* photo taker.app */;
+			name = "Photo Project Time";
+			productName = "Photo Project Time";
+			productReference = 8005474024121D210083AE55 /* Photo Project Time.app */;
 			productType = "com.apple.product-type.application";
 		};
-		80EE1D5A23FEFC0400B33B3B /* photo takerTests */ = {
+		8005475324121D230083AE55 /* Photo Project TimeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80EE1D7223FEFC0400B33B3B /* Build configuration list for PBXNativeTarget "photo takerTests" */;
+			buildConfigurationList = 8005476B24121D230083AE55 /* Build configuration list for PBXNativeTarget "Photo Project TimeTests" */;
 			buildPhases = (
-				80EE1D5723FEFC0400B33B3B /* Sources */,
-				80EE1D5823FEFC0400B33B3B /* Frameworks */,
-				80EE1D5923FEFC0400B33B3B /* Resources */,
+				8005475024121D230083AE55 /* Sources */,
+				8005475124121D230083AE55 /* Frameworks */,
+				8005475224121D230083AE55 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				80EE1D5D23FEFC0400B33B3B /* PBXTargetDependency */,
+				8005475624121D230083AE55 /* PBXTargetDependency */,
 			);
-			name = "photo takerTests";
-			productName = "photo takerTests";
-			productReference = 80EE1D5B23FEFC0400B33B3B /* photo takerTests.xctest */;
+			name = "Photo Project TimeTests";
+			productName = "Photo Project TimeTests";
+			productReference = 8005475424121D230083AE55 /* Photo Project TimeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		80EE1D6523FEFC0400B33B3B /* photo takerUITests */ = {
+		8005475E24121D230083AE55 /* Photo Project TimeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80EE1D7523FEFC0400B33B3B /* Build configuration list for PBXNativeTarget "photo takerUITests" */;
+			buildConfigurationList = 8005476E24121D230083AE55 /* Build configuration list for PBXNativeTarget "Photo Project TimeUITests" */;
 			buildPhases = (
-				80EE1D6223FEFC0400B33B3B /* Sources */,
-				80EE1D6323FEFC0400B33B3B /* Frameworks */,
-				80EE1D6423FEFC0400B33B3B /* Resources */,
+				8005475B24121D230083AE55 /* Sources */,
+				8005475C24121D230083AE55 /* Frameworks */,
+				8005475D24121D230083AE55 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				80EE1D6823FEFC0400B33B3B /* PBXTargetDependency */,
+				8005476124121D230083AE55 /* PBXTargetDependency */,
 			);
-			name = "photo takerUITests";
-			productName = "photo takerUITests";
-			productReference = 80EE1D6623FEFC0400B33B3B /* photo takerUITests.xctest */;
+			name = "Photo Project TimeUITests";
+			productName = "Photo Project TimeUITests";
+			productReference = 8005475F24121D230083AE55 /* Photo Project TimeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		80EE1D3F23FEFC0200B33B3B /* Project object */ = {
+		8005473824121D200083AE55 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "Reed Wilson";
 				TargetAttributes = {
-					80EE1D4623FEFC0300B33B3B = {
+					8005473F24121D210083AE55 = {
 						CreatedOnToolsVersion = 10.3;
 					};
-					80EE1D5A23FEFC0400B33B3B = {
+					8005475324121D230083AE55 = {
 						CreatedOnToolsVersion = 10.3;
-						TestTargetID = 80EE1D4623FEFC0300B33B3B;
+						TestTargetID = 8005473F24121D210083AE55;
 					};
-					80EE1D6523FEFC0400B33B3B = {
+					8005475E24121D230083AE55 = {
 						CreatedOnToolsVersion = 10.3;
-						TestTargetID = 80EE1D4623FEFC0300B33B3B;
+						TestTargetID = 8005473F24121D210083AE55;
 					};
 				};
 			};
-			buildConfigurationList = 80EE1D4223FEFC0200B33B3B /* Build configuration list for PBXProject "photo taker" */;
+			buildConfigurationList = 8005473B24121D200083AE55 /* Build configuration list for PBXProject "Photo Project Time" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -215,37 +212,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 80EE1D3E23FEFC0200B33B3B;
-			productRefGroup = 80EE1D4823FEFC0300B33B3B /* Products */;
+			mainGroup = 8005473724121D200083AE55;
+			productRefGroup = 8005474124121D210083AE55 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				80EE1D4623FEFC0300B33B3B /* photo taker */,
-				80EE1D5A23FEFC0400B33B3B /* photo takerTests */,
-				80EE1D6523FEFC0400B33B3B /* photo takerUITests */,
+				8005473F24121D210083AE55 /* Photo Project Time */,
+				8005475324121D230083AE55 /* Photo Project TimeTests */,
+				8005475E24121D230083AE55 /* Photo Project TimeUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		80EE1D4523FEFC0300B33B3B /* Resources */ = {
+		8005473E24121D210083AE55 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80EE1D5523FEFC0400B33B3B /* LaunchScreen.storyboard in Resources */,
-				80EE1D5223FEFC0400B33B3B /* Assets.xcassets in Resources */,
-				80EE1D5023FEFC0300B33B3B /* Main.storyboard in Resources */,
+				8005474E24121D230083AE55 /* LaunchScreen.storyboard in Resources */,
+				8005474B24121D230083AE55 /* Assets.xcassets in Resources */,
+				8005474924121D210083AE55 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80EE1D5923FEFC0400B33B3B /* Resources */ = {
+		8005475224121D230083AE55 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80EE1D6423FEFC0400B33B3B /* Resources */ = {
+		8005475D24121D230083AE55 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,60 +252,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		80EE1D4323FEFC0300B33B3B /* Sources */ = {
+		8005473C24121D210083AE55 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80EE1D4D23FEFC0300B33B3B /* ViewController.swift in Sources */,
-				80EE1D4B23FEFC0300B33B3B /* AppDelegate.swift in Sources */,
-				800547742412B60C0083AE55 /* galleryViewController.swift in Sources */,
+				8005474624121D210083AE55 /* ViewController.swift in Sources */,
+				8005474424121D210083AE55 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80EE1D5723FEFC0400B33B3B /* Sources */ = {
+		8005475024121D230083AE55 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80EE1D6023FEFC0400B33B3B /* photo_takerTests.swift in Sources */,
+				8005475924121D230083AE55 /* Photo_Project_TimeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80EE1D6223FEFC0400B33B3B /* Sources */ = {
+		8005475B24121D230083AE55 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80EE1D6B23FEFC0400B33B3B /* photo_takerUITests.swift in Sources */,
+				8005476424121D230083AE55 /* Photo_Project_TimeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		80EE1D5D23FEFC0400B33B3B /* PBXTargetDependency */ = {
+		8005475624121D230083AE55 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 80EE1D4623FEFC0300B33B3B /* photo taker */;
-			targetProxy = 80EE1D5C23FEFC0400B33B3B /* PBXContainerItemProxy */;
+			target = 8005473F24121D210083AE55 /* Photo Project Time */;
+			targetProxy = 8005475524121D230083AE55 /* PBXContainerItemProxy */;
 		};
-		80EE1D6823FEFC0400B33B3B /* PBXTargetDependency */ = {
+		8005476124121D230083AE55 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 80EE1D4623FEFC0300B33B3B /* photo taker */;
-			targetProxy = 80EE1D6723FEFC0400B33B3B /* PBXContainerItemProxy */;
+			target = 8005473F24121D210083AE55 /* Photo Project Time */;
+			targetProxy = 8005476024121D230083AE55 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		80EE1D4E23FEFC0300B33B3B /* Main.storyboard */ = {
+		8005474724121D210083AE55 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				80EE1D4F23FEFC0300B33B3B /* Base */,
+				8005474824121D210083AE55 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		80EE1D5323FEFC0400B33B3B /* LaunchScreen.storyboard */ = {
+		8005474C24121D230083AE55 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				80EE1D5423FEFC0400B33B3B /* Base */,
+				8005474D24121D230083AE55 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +312,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		80EE1D6D23FEFC0400B33B3B /* Debug */ = {
+		8005476624121D230083AE55 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -377,7 +373,7 @@
 			};
 			name = Debug;
 		};
-		80EE1D6E23FEFC0400B33B3B /* Release */ = {
+		8005476724121D230083AE55 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -432,164 +428,164 @@
 			};
 			name = Release;
 		};
-		80EE1D7023FEFC0400B33B3B /* Debug */ = {
+		8005476924121D230083AE55 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 58L7ZLHMXX;
-				INFOPLIST_FILE = "photo taker/Info.plist";
+				INFOPLIST_FILE = "Photo Project Time/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.photo-taker";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.Photo-Project-Time";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		80EE1D7123FEFC0400B33B3B /* Release */ = {
+		8005476A24121D230083AE55 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 58L7ZLHMXX;
-				INFOPLIST_FILE = "photo taker/Info.plist";
+				INFOPLIST_FILE = "Photo Project Time/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.photo-taker";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.Photo-Project-Time";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		80EE1D7323FEFC0400B33B3B /* Debug */ = {
+		8005476C24121D230083AE55 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 58L7ZLHMXX;
-				INFOPLIST_FILE = "photo takerTests/Info.plist";
+				INFOPLIST_FILE = "Photo Project TimeTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.photo-takerTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.Photo-Project-TimeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/photo taker.app/photo taker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photo Project Time.app/Photo Project Time";
 			};
 			name = Debug;
 		};
-		80EE1D7423FEFC0400B33B3B /* Release */ = {
+		8005476D24121D230083AE55 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 58L7ZLHMXX;
-				INFOPLIST_FILE = "photo takerTests/Info.plist";
+				INFOPLIST_FILE = "Photo Project TimeTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.photo-takerTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.Photo-Project-TimeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/photo taker.app/photo taker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photo Project Time.app/Photo Project Time";
 			};
 			name = Release;
 		};
-		80EE1D7623FEFC0400B33B3B /* Debug */ = {
+		8005476F24121D230083AE55 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 58L7ZLHMXX;
-				INFOPLIST_FILE = "photo takerUITests/Info.plist";
+				INFOPLIST_FILE = "Photo Project TimeUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.photo-takerUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.Photo-Project-TimeUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "photo taker";
+				TEST_TARGET_NAME = "Photo Project Time";
 			};
 			name = Debug;
 		};
-		80EE1D7723FEFC0400B33B3B /* Release */ = {
+		8005477024121D230083AE55 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 58L7ZLHMXX;
-				INFOPLIST_FILE = "photo takerUITests/Info.plist";
+				INFOPLIST_FILE = "Photo Project TimeUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.photo-takerUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Reed-Son-of-Will.Photo-Project-TimeUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "photo taker";
+				TEST_TARGET_NAME = "Photo Project Time";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		80EE1D4223FEFC0200B33B3B /* Build configuration list for PBXProject "photo taker" */ = {
+		8005473B24121D200083AE55 /* Build configuration list for PBXProject "Photo Project Time" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80EE1D6D23FEFC0400B33B3B /* Debug */,
-				80EE1D6E23FEFC0400B33B3B /* Release */,
+				8005476624121D230083AE55 /* Debug */,
+				8005476724121D230083AE55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80EE1D6F23FEFC0400B33B3B /* Build configuration list for PBXNativeTarget "photo taker" */ = {
+		8005476824121D230083AE55 /* Build configuration list for PBXNativeTarget "Photo Project Time" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80EE1D7023FEFC0400B33B3B /* Debug */,
-				80EE1D7123FEFC0400B33B3B /* Release */,
+				8005476924121D230083AE55 /* Debug */,
+				8005476A24121D230083AE55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80EE1D7223FEFC0400B33B3B /* Build configuration list for PBXNativeTarget "photo takerTests" */ = {
+		8005476B24121D230083AE55 /* Build configuration list for PBXNativeTarget "Photo Project TimeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80EE1D7323FEFC0400B33B3B /* Debug */,
-				80EE1D7423FEFC0400B33B3B /* Release */,
+				8005476C24121D230083AE55 /* Debug */,
+				8005476D24121D230083AE55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80EE1D7523FEFC0400B33B3B /* Build configuration list for PBXNativeTarget "photo takerUITests" */ = {
+		8005476E24121D230083AE55 /* Build configuration list for PBXNativeTarget "Photo Project TimeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80EE1D7623FEFC0400B33B3B /* Debug */,
-				80EE1D7723FEFC0400B33B3B /* Release */,
+				8005476F24121D230083AE55 /* Debug */,
+				8005477024121D230083AE55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 80EE1D3F23FEFC0200B33B3B /* Project object */;
+	rootObject = 8005473824121D200083AE55 /* Project object */;
 }

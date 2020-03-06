@@ -12,7 +12,9 @@ import AVFoundation
 class ViewController: UIViewController, UINavigationControllerDelegate,  UIImagePickerControllerDelegate {
     
     var takerController: UIImagePickerController!
+    var photos: [UIImage] = []
     @IBOutlet weak var imageView1: UIImageView!
+    @IBOutlet weak var button: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,6 +42,16 @@ class ViewController: UIViewController, UINavigationControllerDelegate,  UIImage
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         takerController.dismiss(animated: true, completion: nil)
         imageView1.image = info[.originalImage] as? UIImage
+    let image = info[.originalImage] as? UIImage
+        photos.append(image!)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let gallery = segue.destination as? galleryViewController, let sender = sender as? UIButton {
+            if sender == button {
+                gallery.images = photos
+            }
+        }
     }
     
 }

@@ -48,7 +48,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
            
             let imagePicker = UIImagePickerController()
             imagePicker.delegate = self
-            imagePicker.sourceType = .camera
+            imagePicker.sourceType = .photoLibrary
             
             self.present(imagePicker, animated: true, completion: nil)
         }
