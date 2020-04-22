@@ -15,6 +15,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate,  UIImage
     var photos: [UIImage] = []
     @IBOutlet weak var imageView1: UIImageView!
     @IBOutlet weak var button: UIButton!
+    @IBOutlet weak var filterPicker: UIPickerView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
